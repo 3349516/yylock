@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">YY鎖</string>
+    <string name="input_password">輸入密碼</string>
+    <string name="input_info">請輸入密碼</string>
+    <string name="input_error">您輸入的密碼錯誤,請重新輸入</string>
+    <string name="app_encrypt">程序加密</string>
+    <string name="modify_password">修改密碼</string>
+    <string name="modify_newpassword">請輸入新密碼</string>
+    <string name="modify_newpassword2">請再次輸入密碼</string>
+    <string name="modify_success">密碼設置成功</string>
+    <string name="modify_error">密碼不匹配,請重新輸入</string>
+	<string name="load_info">正在加載程序列表,請稍候 &#8230;</string>
+	<string name="app_intercept">應用程序攔截</string>
+	
+	 <string name="cancel">"取消"</string>
+    <string name="lock_example_title">"範例圖形"</string>
+    <string name="lock_example_message">"至少連接四個點。"\n" "\n"您準備好要繪製自己的解鎖圖案時，請輕觸 [下一步]。"</string>
+     <string name="skip_button_label">"取消"</string>
+     <string name="lock_title">"手機安全設定"</string>
+     <string name="next_button_label">"下一頁"</string>
+     <string name="lock_intro_message" ><font size="17">"建立個人螢幕的解鎖圖案，避免手機在未經授權的狀態下遭人使用。"\n<font height="17">\n</font><b>"1"</b>"  請在下一個畫面檢視範例圖案的繪製示範。"\n<font height="17">\n</font><b>"2"</b>"  當您準備就緒後，請繪製自己的個人解鎖圖案。請嘗試繪製不同的圖案，但至少要連接四個點。"\n<font height="17">\n</font><b>"3"</b>"  再次繪製圖案來確認。"\n<font height="17">\n</font><b>"準備好要開始了嗎？請輕觸 [下一步]"</b>"。"\n<font height="3">\n</font>"如要繼續讓手機處於未保護狀態，請輕觸 [取消]。"</font></string>
+    <string name="lockpattern_restart_button_text">"重畫"</string>
+    <string name="lockpattern_confirm_button_text">"確認"</string>
+    <string name="lockpattern_recording_inprogress">"完成後手指離開。"</string>
+    <string name="lockpattern_retry_button_text">"重試"</string>
+    <string name="lockpattern_continue_button_text">"繼續"</string>
+    <string name="lockpattern_recording_intro_header">"畫出解鎖圖形"</string>
+    <string name="lockpattern_recording_intro_footer">"請按 “菜單”以取得說明。"</string>
+    <string name="lockpattern_settings_help_how_to_record">"如何畫出解鎖圖形"</string>
+    <string name="lockpattern_recording_incorrect_too_short">"請連接至少 <xliff:g id="NUMBER">%d</xliff:g> 點。再試一次："</string>
+	<string name="lockpattern_pattern_entered_header">"圖形已記錄！"</string>
+	<string name="lockpattern_need_to_confirm">"再次畫出圖形以確認："</string>
+	<string name="lockpattern_need_to_unlock_wrong">"很抱歉，請再試一次："</string>
+	<string name="lockpattern_pattern_confirmed_header">"新的解鎖圖形："</string>
+	
+	<string name="menu_open">打開</string>
+	<string name="menu_move">從列表中移除</string>
+	<string name="menu_uninstall">卸載</string>
+	<string name="app_filter">過濾列表</string>
+	<string name="menu_add">從已過濾的列表中移除</string>
+	<string name="app_setting">設置</string>
+	<string name="setting_pattern">圖案解鎖</string>
+	<string name="setting_screen">設置鎖屏</string>
+	<string name="setting_resetlist">列表重置</string>
+	<string name="app_filter_info">以下程序將直接打開</string>   
+	<string name="setting_resetlist_info">列表重置成功 &#8230;</string>   
+</resources>

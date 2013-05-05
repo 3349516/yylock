@@ -1,0 +1,352 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+com.kuguo.ad.KuguoAdsManager:
+    public static final int STYLE_SIDE
+    public static final int STYLE_FREE
+    public void stopPushMessage(android.content.Context)
+com.kuguo.ad.MainService:
+    public static void a(android.content.Context)
+com.kuguo.ad.a:
+    public a()
+com.kuguo.ad.ae
+com.kuguo.ad.b:
+    public b()
+com.kuguo.ad.r:
+    public r()
+com.kuguo.c.a:
+    public a()
+com.kuguo.c.b:
+    public b()
+com.kuguo.c.c:
+    public c()
+com.kuguo.c.d:
+    public d()
+com.seven.lock.ActvityInterceptService:
+    public static final java.lang.String RECEIVER
+    private static final int sheepTime
+    154:168:public static boolean isServiceRunning(android.content.Context,java.lang.String)
+com.seven.lock.BuildConfig
+com.seven.lock.LockEncryActivity:
+    public static final java.lang.String IsCloseSHOW
+    private static final int MSG_DISMISS_PROGRESS_DIALOG
+    private static final int MSG_UPDATE_LIST
+    private static final int MENU_ID
+com.seven.lock.LockFilterActivity:
+    public static final int MSG_DISMISS_PROGRESS_DIALOG
+    public static final int MSG_UPDATE_LIST
+    private static final int MENU_ID
+com.seven.lock.LockScreenService:
+    public static final java.lang.String ACT_SCREEN_OFF
+    public static final java.lang.String ACT_SCREEN_ON
+com.seven.lock.Main:
+    private static final java.lang.String KEY
+com.seven.lock.R
+com.seven.lock.R$anim
+com.seven.lock.R$attr
+com.seven.lock.R$color
+com.seven.lock.R$dimen
+com.seven.lock.R$drawable
+com.seven.lock.R$id
+com.seven.lock.R$layout
+com.seven.lock.R$menu
+com.seven.lock.R$string
+com.seven.lock.R$style
+com.seven.lock.RefreshReceiver:
+    public static final java.lang.String RECEIVER
+com.seven.lock.SettingActivity:
+    public static final java.lang.String LOCK_SCREEN_ON_OFF
+    private static final int MSG_START
+    private static final int MSG_END
+com.seven.lock.db.AppsProvider:
+    public static final java.lang.String TABLE_NAME
+    private static final java.lang.String PROVIDERNAME
+com.seven.lock.db.DatabaseHelper:
+    private static final java.lang.String DATABASE_NAME
+    private static final int DATABASE_VERSION
+com.seven.lock.db.UriManager:
+    private static final java.lang.String AUTHORITY
+com.seven.lock.pattern.ChooseLockPattern:
+    static final int RESULT_FINISHED
+    static final int INFORMATION_MSG_TIMEOUT_MS
+    private static final int WRONG_PATTERN_CLEAR_TIMEOUT_MS
+    private static final int ID_EMPTY_MESSAGE
+    private static final java.lang.String KEY_UI_STAGE
+    private static final java.lang.String KEY_PATTERN_CHOICE
+com.seven.lock.pattern.ChooseLockPatternExample:
+    private static final int REQUESTCODE_CHOOSE
+    private static final long START_DELAY
+com.seven.lock.pattern.ChooseLockPatternTutorial:
+    private static final int REQUESTCODE_EXAMPLE
+com.seven.lock.pattern.PatternMain:
+    static final int RESULT_FINISHED
+    static final int INFORMATION_MSG_TIMEOUT_MS
+    private static final int WRONG_PATTERN_CLEAR_TIMEOUT_MS
+    private static final int ID_EMPTY_MESSAGE
+    private static final java.lang.String KEY_UI_STAGE
+    private static final java.lang.String KEY_PATTERN_CHOICE
+com.seven.lock.util.IconBitmapUtil:
+    18:18:public IconBitmapUtil()
+    67:75:public static android.graphics.Bitmap drawableToBitmap(android.graphics.drawable.Drawable)
+com.seven.lock.util.KeyguardUtil:
+    40:42:public boolean isLockScreen()
+com.seven.lock.util.ObjConverUtil:
+    12:12:public ObjConverUtil()
+com.seven.lock.view.LockPatternUtils:
+    public static final int FAILED_ATTEMPTS_BEFORE_TIMEOUT
+    public static final int FAILED_ATTEMPTS_BEFORE_RESET
+    public static final long FAILED_ATTEMPT_TIMEOUT_MS
+    public static final long FAILED_ATTEMPT_COUNTDOWN_INTERVAL_MS
+    public static final int MIN_LOCK_PATTERN_SIZE
+    public static final int MIN_PATTERN_REGISTER_FAIL
+    public static final java.lang.String PatternPwd
+    public static final java.lang.String PatternSwitch
+com.seven.lock.view.LockPatternView:
+    private static final boolean PROFILE_DRAWING
+    static final int STATUS_BAR_HEIGHT
+    private static final int MILLIS_PER_CIRCLE_ANIMATING
+    294:294:public boolean isInStealthMode()
+    301:301:public boolean isTactileFeedbackEnabled()
+    311:312:public void setInStealthMode(boolean)
+    321:322:public void setTactileFeedbackEnabled(boolean)
+com.seven.lock.view.PageControl:
+    162:166:public void setActiveDrawable(android.graphics.drawable.Drawable)
+    175:175:public android.graphics.drawable.Drawable getActiveDrawable()
+    185:193:public void setInactiveDrawable(android.graphics.drawable.Drawable)
+    202:202:public android.graphics.drawable.Drawable getInactiveDrawable()
+    233:233:public int getPageCount()
+    258:258:public int getCurrentPage()
+    268:273:public void setIndicatorSize(int)
+    282:282:public int getIndicatorSize()
+    324:324:public com.seven.lock.view.PageControl$OnPageControlClickListener getOnPageControlClickListener()
+com.seven.lock.view.SwipeView:
+    214:214:public android.widget.LinearLayout getChildContainer()
+    224:224:public int getSwipeThreshold()
+    234:235:public void setSwipeThreshold(int)
+    244:244:public int getCurrentPage()
+    322:323:public int setPageWidth(int)
+    337:337:public int calculatePageSize(android.view.ViewGroup$MarginLayoutParams)
+    347:347:public int getPageWidth()
+    382:382:public com.seven.lock.view.PageControl getPageControl()
+    409:410:public void setOnPageChangedListener(com.seven.lock.view.SwipeView$OnPageChangedListener)
+    419:419:public com.seven.lock.view.SwipeView$OnPageChangedListener getOnPageChangedListener()
+com.seven.lock.view.SwitchView:
+    private float previousX
+    private float currentX
+com.umeng.analytics.Gender
+com.umeng.analytics.MobclickAgent:
+    private static final int h
+    private static final int i
+    private static final int j
+    private static final int k
+    private static final int l
+    private static final int m
+    private static final int n
+    private static final java.lang.String p
+    private static final java.lang.String q
+    private static final java.lang.String r
+    private static final java.lang.String s
+    private static final java.lang.String t
+    private static final java.lang.String u
+    private static final java.lang.String v
+    private static final java.lang.String w
+    private static final java.lang.String x
+    private static final java.lang.String y
+    private static final java.lang.String z
+    private static final java.lang.String A
+    private static final java.lang.String B
+    private static final java.lang.String C
+    private static final java.lang.String D
+    private static final java.lang.String E
+    private static final java.lang.String F
+    private static final java.lang.String G
+    private static final java.lang.String H
+    private static final java.lang.String I
+    private static final java.lang.String J
+    private static final java.lang.String K
+    private static final java.lang.String L
+    private static final java.lang.String M
+    private static final java.lang.String N
+    private static final java.lang.String O
+    private static final java.lang.String P
+    private static final java.lang.String Q
+    private static final java.lang.String R
+    private static final java.lang.String S
+    private static final java.lang.String T
+    private static final java.lang.String U
+    private static final java.lang.String V
+    public static void setAutoLocation(boolean)
+    public static void setSessionContinueMillis(long)
+    public static void setOnlineConfigureListener(com.umeng.analytics.UmengOnlineConfigureListener)
+    public static void openActivityDurationTrack(boolean)
+    public static void setDebugMode(boolean)
+    public static void setDefaultReportPolicy(android.content.Context,int)
+    public static void reportError(android.content.Context,java.lang.String)
+    public static void flush(android.content.Context)
+    public static void onEvent(android.content.Context,java.lang.String,java.lang.String,int)
+    public static void enterPage(android.content.Context,java.lang.String)
+    private synchronized void d(android.content.Context)
+    private void f(android.content.Context)
+    private org.json.JSONArray a(org.json.JSONObject,org.json.JSONArray)
+    public static void setOpenGLContext(javax.microedition.khronos.opengles.GL10)
+    public static java.lang.String getConfigParams(android.content.Context,java.lang.String)
+    private static java.lang.String p(android.content.Context)
+    private static void a(android.content.Context,int)
+    public static void updateOnlineConfig(android.content.Context,java.lang.String)
+    public static void updateOnlineConfig(android.content.Context)
+    private synchronized void c(android.content.Context,java.lang.String)
+    public static void setGender(android.content.Context,com.umeng.analytics.Gender)
+    public static void setAge(android.content.Context,int)
+    public static void setUserID(android.content.Context,java.lang.String,java.lang.String)
+    public static void onEventDuration(android.content.Context,java.lang.String,long)
+    public static void onEventDuration(android.content.Context,java.lang.String,java.lang.String,long)
+    public static void onEventDuration(android.content.Context,java.lang.String,java.util.Map,long)
+    public static void onEventBegin(android.content.Context,java.lang.String)
+    public static void onEventEnd(android.content.Context,java.lang.String)
+    public static void onEventBegin(android.content.Context,java.lang.String,java.lang.String)
+    public static void onEventEnd(android.content.Context,java.lang.String,java.lang.String)
+    public static void onKVEventBegin(android.content.Context,java.lang.String,java.util.Map,java.lang.String)
+    public static void onKVEventEnd(android.content.Context,java.lang.String,java.lang.String)
+com.umeng.analytics.MobclickAgent$1
+com.umeng.analytics.MobclickAgent$a:
+    MobclickAgent$a(android.content.Context,java.lang.String,java.util.Map,java.lang.String,int)
+com.umeng.analytics.ReportPolicy
+com.umeng.analytics.a:
+    static final java.lang.String a
+    static final java.lang.String b
+    static final java.lang.String c
+    static final int e
+    static final int f
+    static final java.lang.String o
+    static final java.lang.String q
+    static final java.lang.String r
+    static final java.lang.String t
+    static final java.lang.String u
+    static final java.lang.String v
+    static final java.lang.String w
+    static final java.lang.String x
+    static final java.lang.String y
+    static final java.lang.String z
+    static final java.lang.String A
+    static final java.lang.String B
+    a()
+com.umeng.analytics.b:
+    b()
+com.umeng.common.Log:
+    public Log()
+    public static void d(java.lang.String,java.lang.String)
+    public static void d(java.lang.String,java.lang.String,java.lang.Exception)
+    public static void e(java.lang.String,java.lang.String,java.lang.Exception)
+com.umeng.common.a
+com.umeng.common.a.a:
+    public a()
+com.umeng.common.a.b:
+    public b()
+com.umeng.common.b:
+    protected static final java.lang.String b
+    private static final java.lang.String d
+    private static final java.lang.String e
+    public static final int c
+    public static boolean a(java.lang.String,android.content.Context)
+    public static boolean a(android.content.Context)
+    public static java.util.Set b(android.content.Context)
+    public static boolean c(android.content.Context)
+    public static java.lang.String[] a(javax.microedition.khronos.opengles.GL10)
+    public static java.lang.String g(android.content.Context)
+    public static java.lang.String h(android.content.Context)
+    public static java.lang.String i(android.content.Context)
+    public static java.lang.String a(java.util.Date)
+    public static java.util.Date a(java.lang.String)
+    public static int a(java.util.Date,java.util.Date)
+    public static java.lang.String u(android.content.Context)
+com.umeng.common.b.a
+com.umeng.common.b.b
+com.umeng.common.b.c
+com.umeng.common.b.d
+com.umeng.common.b.e
+com.umeng.common.b.f:
+    public f()
+    public static java.lang.String a(byte[],java.lang.String)
+com.umeng.common.b.g:
+    private static final java.lang.String b
+    public g()
+    public static java.lang.String a(android.content.Context,long)
+    public static void a(android.content.Context,java.lang.String)
+    public static boolean b(android.content.Context,java.lang.String)
+    public static boolean d(java.lang.String)
+com.umeng.common.b.h
+com.umeng.common.b.i
+com.umeng.common.c:
+    public int a(java.lang.String)
+    public int c(java.lang.String)
+    public int e(java.lang.String)
+    public int f(java.lang.String)
+    public int g(java.lang.String)
+com.umeng.common.net.DownloadingService:
+    static final int a
+    static final int b
+    static final int c
+    static final int d
+    static final int e
+    static final int f
+    static final java.lang.String g
+com.umeng.common.net.DownloadingService$a:
+    private static final long j
+com.umeng.common.net.a:
+    private android.content.Context c
+    private com.umeng.common.net.e d
+    private android.os.Messenger e
+    private java.lang.String f
+    private java.lang.String g
+    private java.lang.String h
+    final android.os.Messenger a
+    private android.content.ServiceConnection i
+    public a(android.content.Context,java.lang.String,java.lang.String,java.lang.String,com.umeng.common.net.e)
+    public void a()
+    static synthetic java.lang.String b()
+    static synthetic void a(com.umeng.common.net.a,android.os.Messenger)
+    static synthetic com.umeng.common.net.e a(com.umeng.common.net.a)
+    static synthetic java.lang.String b(com.umeng.common.net.a)
+    static synthetic java.lang.String c(com.umeng.common.net.a)
+    static synthetic java.lang.String d(com.umeng.common.net.a)
+    static synthetic android.os.Messenger e(com.umeng.common.net.a)
+    static synthetic android.content.Context f(com.umeng.common.net.a)
+    static synthetic android.content.ServiceConnection g(com.umeng.common.net.a)
+com.umeng.common.net.a$a:
+    public android.os.Bundle a()
+com.umeng.common.net.a$b
+com.umeng.common.net.b
+com.umeng.common.net.c:
+    private static final java.lang.String b
+    private static final java.lang.String c
+    private static final java.lang.String d
+    private static final java.lang.String e
+    private static final java.lang.String f
+    private static final java.lang.String g
+    private static final java.lang.String h
+    private static final java.lang.String j
+    public void a(java.lang.String,java.lang.String,java.lang.String)
+    public int b(java.lang.String,java.lang.String)
+    public java.lang.String c(java.lang.String,java.lang.String)
+    public java.util.Date d(java.lang.String,java.lang.String)
+    public void e(java.lang.String,java.lang.String)
+    public java.util.List a(java.lang.String)
+com.umeng.common.net.c$1
+com.umeng.common.net.c$a:
+    private static final int b
+    private static final java.lang.String c
+com.umeng.common.net.c$b:
+    private c$b()
+com.umeng.common.net.e
+com.umeng.common.net.f
+com.umeng.common.net.f$a
+com.umeng.common.net.f$b
+com.umeng.common.net.g
+com.umeng.common.net.h
+com.umeng.common.net.h$a
+com.umeng.common.net.i
+com.umeng.common.net.i$a
+com.umeng.common.net.i$b
+com.umeng.common.net.i$c
+com.umeng.common.net.j
+com.umeng.common.net.k
+com.umeng.common.net.l

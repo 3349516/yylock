@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.seven.lock"
+    android:versionCode="8"
+    android:versionName="2.5" android:installLocation="auto">
+   
+  <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <activity
+           android:name=".Main"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LockMain"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LockEncryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LockFilterActivity"
+            android:screenOrientation="portrait" />
+          <activity
+            android:name=".SettingActivity"
+            android:screenOrientation="portrait" />
+          
+           <activity
+            android:name=".pattern.PatternMain"
+            android:screenOrientation="portrait" />
+           
+          <activity
+            android:name=".pattern.ChooseLockPattern"
+            android:screenOrientation="portrait" />
+           <activity
+            android:name=".pattern.ChooseLockPatternExample"
+            android:screenOrientation="portrait" />
+           <activity
+            android:name=".pattern.ChooseLockPatternTutorial"
+            android:screenOrientation="portrait" />
+           
+            <activity
+            android:name=".HelperActivity"
+            android:screenOrientation="portrait" android:theme="@style/transparent"/>
+        
+
+        <service
+            android:name=".ActvityInterceptService"
+            android:enabled="true"
+            android:label="@string/app_intercept" />
+        <service android:name=".LockScreenService" />  
+
+        <receiver android:name=".AppsReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+               <intent-filter>  
+              <action android:name="android.intent.action.PACKAGE_ADDED" />  
+              <action android:name="android.intent.action.PACKAGE_REMOVED" />  
+               <!-- 注意！！ 这句必须要加，否则接收不到BroadCast -->  
+               <data android:scheme="package" />  
+             </intent-filter>  
+        </receiver>
+       <provider android:name=".db.AppsProvider"
+			android:authorities="com.seven.lock.AppsProvider">
+		</provider>
+        
+       <!-- 酷果开始 -->
+     <meta-data android:name="channelId" android:value="k-gfan"/>
+      <activity android:name="com.kuguo.ad.MainActivity"
+			android:theme="@android:style/Theme.Dialog"
+			android:excludeFromRecents="true"
+			android:launchMode="singleInstance" />
+		<activity android:name="com.kuguo.ad.BoutiqueActivity" 
+			android:theme="@android:style/Theme.Dialog"
+			android:excludeFromRecents="true"
+			android:launchMode="singleInstance"/>
+		<service android:name="com.kuguo.ad.MainService" />
+		<receiver android:name="com.kuguo.ad.MainReceiver">
+			<intent-filter>
+				<action android:name="android.intent.action.PACKAGE_ADDED" />
+				<data android:scheme="package" />
+			</intent-filter>
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+		</receiver>
+		<!-- 酷果结束 -->
+		
+		<!--  友盟统计 -->
+		<meta-data android:name="UMENG_APPKEY" android:value="4fdbd7b85270151bf000002e"></meta-data>
+        <meta-data android:name="UMENG_CHANNEL" android:value="Umeng" >
+        </meta-data>
+    </application>
+    
+	<uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.DELETE_PACKAGES" /> 
+    <uses-permission android:name="android.permission.VIBRATE" /> 
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" /> 
+    
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/> 
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+	<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    
+    <uses-permission android:name="android.permission.READ_LOGS"></uses-permission>
+    <uses-sdk android:minSdkVersion="7" />
+    
+    <supports-screens android:anyDensity="true" android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" />
+
+</manifest>

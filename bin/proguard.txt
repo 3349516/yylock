@@ -1,0 +1,79 @@
+# view res/layout/choose_lock_main.xml #generated:16
+# view res/layout/choose_lock_pattern.xml #generated:16
+-keep class com.android.internal.widget.LinearLayoutWithDefaultTouchRecepient { <init>(...); }
+
+# view AndroidManifest.xml #generated:79
+-keep class com.kuguo.ad.BoutiqueActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:75
+-keep class com.kuguo.ad.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:84
+-keep class com.kuguo.ad.MainReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:83
+-keep class com.kuguo.ad.MainService { <init>(...); }
+
+# view AndroidManifest.xml #generated:52
+-keep class com.seven.lock.ActvityInterceptService { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class com.seven.lock.AppsReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:47
+-keep class com.seven.lock.HelperActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:23
+-keep class com.seven.lock.LockEncryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:26
+-keep class com.seven.lock.LockFilterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:20
+-keep class com.seven.lock.LockMain { <init>(...); }
+
+# view AndroidManifest.xml #generated:56
+-keep class com.seven.lock.LockScreenService { <init>(...); }
+
+# view AndroidManifest.xml #generated:10
+-keep class com.seven.lock.Main { <init>(...); }
+
+# view AndroidManifest.xml #generated:29
+-keep class com.seven.lock.SettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:69
+-keep class com.seven.lock.db.AppsProvider { <init>(...); }
+
+# view AndroidManifest.xml #generated:37
+-keep class com.seven.lock.pattern.ChooseLockPattern { <init>(...); }
+
+# view AndroidManifest.xml #generated:40
+-keep class com.seven.lock.pattern.ChooseLockPatternExample { <init>(...); }
+
+# view AndroidManifest.xml #generated:43
+-keep class com.seven.lock.pattern.ChooseLockPatternTutorial { <init>(...); }
+
+# view AndroidManifest.xml #generated:33
+-keep class com.seven.lock.pattern.PatternMain { <init>(...); }
+
+# view res/layout/choose_lock_main.xml #generated:42
+# view res/layout/choose_lock_pattern.xml #generated:42
+-keep class com.seven.lock.view.LockPatternView { <init>(...); }
+
+# view res/layout/lock_main.xml #generated:9
+-keep class com.seven.lock.view.PageControl { <init>(...); }
+
+# view res/layout/lock_encry_app_item.xml #generated:2
+# view res/layout/lock_filter_app_item.xml #generated:2
+-keep class com.seven.lock.view.RelativeLayoutWithContextMenuInfo { <init>(...); }
+
+# view res/layout/lock_main.xml #generated:5
+-keep class com.seven.lock.view.SwipeView { <init>(...); }
+
+# view res/layout/lock_encry.xml #generated:27
+# view res/layout/lock_encry_app_item.xml #generated:14
+# view res/layout/lock_filter_app_item.xml #generated:14
+# view res/layout/lock_setting.xml #generated:26
+# view res/layout/lock_setting.xml #generated:44
+-keep class com.seven.lock.view.SwitchView { <init>(...); }
+

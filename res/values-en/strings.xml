@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">YY Lock</string>
+    <string name="input_password">Input password</string>
+    <string name="input_info">Please enter your password</string>
+    <string name="input_error">The password you entered is incorrect, please enter again</string>
+    <string name="app_encrypt">Encryption program</string>
+    <string name="modify_password">Modify password</string>
+    <string name="modify_newpassword">Please enter new password</string>
+    <string name="modify_newpassword2">Please enter the password again</string>
+    <string name="modify_success">Password set successfully</string>
+    <string name="modify_error">The passwords do not match, please enter again</string>
+	<string name="load_info">Please wait while loading application list &#8230;</string>
+	<string name="app_intercept">Application interception</string>
+	
+	  <string name="cancel">Cancel</string>
+    <string name="lock_example_title">Example pattern</string>
+    <string name="lock_example_message">Connect at least four dots.\n
+        \nTouch \u201CNext\u201D when you\u2019re ready to draw your own pattern.
+    </string>
+     <string name="skip_button_label">Cancel</string>
+     <string name="lock_title">Securing your phone</string>
+     <string name="next_button_label">Next</string>
+      <string name="lock_intro_message"><font size="17">Protect your phone from unauthorized use by creating a personal screen unlock pattern.
+        \n<font height="17">\n</font><b>1</b>\u00A0 On the next screen, watch while an example pattern is drawn.
+        \n<font height="17">\n</font><b>2</b>\u00A0 When ready, draw your own personal unlock pattern. Experiment with different patterns but connect at least four dots.
+        \n<font height="17">\n</font><b>3</b>\u00A0 Redraw your pattern to confirm.
+        \n<font height="17">\n</font><b>Ready to start? Touch \u201CNext\u201D</b>.
+        \n<font height="3">\n</font>To leave your phone unprotected, touch \u201CCancel\u201D.</font>
+    </string> 
+    <string name="lockpattern_restart_button_text">Redraw</string>
+    <string name="lockpattern_confirm_button_text">Confirm</string>
+    <string name="lockpattern_recording_inprogress">Release finger when done.</string>
+    <string name="lockpattern_retry_button_text">Retry</string>
+    <string name="lockpattern_continue_button_text">Continue</string>
+    <string name="lockpattern_recording_intro_header">Draw an unlock pattern</string>
+    <string name="lockpattern_recording_intro_footer">Press Menu for help.</string>
+    <string name="lockpattern_settings_help_how_to_record">How to draw an unlock pattern</string>
+    <string name="lockpattern_recording_incorrect_too_short">Connect at least <xliff:g id="number">%d</xliff:g> dots. Try again:</string>
+	<string name="lockpattern_pattern_entered_header">Pattern recorded!</string>
+	<string name="lockpattern_need_to_confirm">Draw pattern again to confirm:</string>
+	<string name="lockpattern_need_to_unlock_wrong">Sorry, try again:</string>
+	<string name="lockpattern_pattern_confirmed_header">Your new unlock pattern:</string>
+	
+	<string name="menu_open">Open</string>
+	<string name="menu_move">Remove from list</string>
+	<string name="menu_uninstall">Uninstall</string>
+	<string name="app_filter">Filter list</string>
+	<string name="menu_add">Removed from the filtered list</string>
+	<string name="app_setting">Settings</string>
+	<string name="setting_pattern">Unlock pattern</string>
+	<string name="setting_screen">Set the lock screen</string>
+	<string name="setting_resetlist">List reset</string>
+	 <string name="app_filter_info">The following procedure will directly open</string>   
+	 <string name="setting_resetlist_info">List reset success &#8230;</string>   
+</resources>

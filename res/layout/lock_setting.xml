@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	>
+	<TextView android:textSize="25.0sp" android:textColor="@android:color/white"
+		android:gravity="center_vertical" android:id="@+id/title"
+		android:background="@drawable/title_background" android:paddingLeft="11.0dip"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:minHeight="60.0dip" android:text="@string/app_setting" />
+	<ScrollView android:id="@+id/scrollview_applist"
+		android:background="@color/preference_activity_background"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<LinearLayout android:orientation="vertical"
+			android:background="@color/preference_activity_background"
+			android:layout_width="fill_parent" android:layout_height="fill_parent">
+			<RelativeLayout android:gravity="center_vertical"
+				android:id="@+id/lockPattern"
+				android:background="@drawable/config_item_bg" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:layout_marginLeft="10.0dip"
+				android:layout_marginTop="9.0dip" android:layout_marginRight="10.0dip">
+			  <TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_marginLeft="10.0dip"
+					android:text="@string/setting_pattern" style="@style/TextAppearanceMedium" 
+					/>
+					<com.seven.lock.view.SwitchView
+					android:id="@+id/pattern_switch" 
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" 
+					android:layout_marginRight="10.0dip" 
+					android:layout_alignParentRight="true"
+					/>
+					 
+			</RelativeLayout>
+			<RelativeLayout android:gravity="center_vertical"
+				android:id="@+id/lockScreen"
+				android:background="@drawable/config_item_bg" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:layout_marginLeft="10.0dip"
+				android:layout_marginTop="9.0dip" android:layout_marginRight="10.0dip">
+			  <TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_marginLeft="10.0dip"
+					android:text="@string/setting_screen" style="@style/TextAppearanceMedium" 
+					/>
+					<com.seven.lock.view.SwitchView
+					android:id="@+id/screen_switch" 
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" 
+					android:layout_marginRight="10.0dip" 
+					android:layout_alignParentRight="true"
+					/>
+					 
+			</RelativeLayout>
+		 	<RelativeLayout android:gravity="center_vertical"
+				android:id="@+id/resetList"
+				android:background="@drawable/config_item_bg" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:layout_marginLeft="10.0dip"
+				android:layout_marginTop="9.0dip" android:layout_marginRight="10.0dip">
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_marginLeft="10.0dip"
+					android:text="@string/setting_resetlist" style="@style/TextAppearanceMedium" 
+					/>
+			</RelativeLayout> 
+				<RelativeLayout android:gravity="center_vertical"
+				android:id="@+id/modifyPwdPane"
+				android:background="@drawable/config_item_bg" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:layout_marginLeft="10.0dip"
+				android:layout_marginTop="9.0dip" android:layout_marginRight="10.0dip">
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_marginLeft="10.0dip"
+					android:text="@string/modify_password" style="@style/TextAppearanceMedium" 
+					/>
+			</RelativeLayout> 
+		</LinearLayout>
+	</ScrollView> 
+</LinearLayout>

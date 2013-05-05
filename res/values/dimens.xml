@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="pwd_text_width">60.0dip</dimen>
+    <dimen name="pwd_text_height">60.0dip</dimen>
+    <dimen name="pwd_text_pwd_size">30.0sp</dimen>
+    <dimen name="pwd_text_msg_size">21.0sp</dimen>
+</resources>

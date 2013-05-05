@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:umadsdk="http://schemas.android.com/apk/res/com.seven.lock"
+	 android:orientation="vertical" android:id="@+id/linearLayout1"
+	android:background="@drawable/password_bg" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:tileMode="repeat"
+	>
+	<TextView android:textSize="25.0sp" android:textColor="@android:color/white"
+		android:gravity="center_vertical" android:id="@+id/title"
+		android:background="@drawable/title_background" android:paddingLeft="11.0dip"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:minHeight="60.0dip"  android:text="@string/input_password" />
+	<LinearLayout android:id="@+id/linearLayout1"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		 >
+		<LinearLayout android:orientation="vertical"
+		    android:layout_width="fill_parent" android:layout_height="wrap_content">
+		     
+   			 <LinearLayout  android:layout_marginTop="50dip" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+   			     <TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_weight="1.0" />
+				<TextView android:textSize="@dimen/pwd_text_pwd_size"
+					android:textColor="@color/black" android:gravity="center" android:id="@+id/password1"
+					android:background="@drawable/pwd_bg" android:layout_width="@dimen/pwd_text_width"
+					android:layout_height="@dimen/pwd_text_height" android:password="true" />
+				<TextView android:textColor="@color/black" android:gravity="center"
+					android:id="@+id/textView1" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_weight="1.0" />
+				<TextView android:textSize="@dimen/pwd_text_pwd_size"
+					android:textColor="@color/black" android:gravity="center" android:id="@+id/password2"
+					android:background="@drawable/pwd_bg" android:layout_width="@dimen/pwd_text_width"
+					android:layout_height="@dimen/pwd_text_height" android:password="true" />
+				<TextView android:textColor="@color/black" android:gravity="center"
+					android:id="@+id/textView1" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_weight="1.0" />
+				<TextView android:textSize="@dimen/pwd_text_pwd_size"
+					android:textColor="@color/black" android:gravity="center" android:id="@+id/password3"
+					android:background="@drawable/pwd_bg" android:layout_width="@dimen/pwd_text_width"
+					android:layout_height="@dimen/pwd_text_height" android:password="true" />
+				<TextView android:textColor="@color/black" android:gravity="center"
+					android:id="@+id/textView1" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_weight="1.0" />
+				<TextView android:textSize="@dimen/pwd_text_pwd_size"
+					android:textColor="@color/black" android:gravity="center" android:id="@+id/password4"
+					android:background="@drawable/pwd_bg" android:layout_width="@dimen/pwd_text_width"
+					android:layout_height="@dimen/pwd_text_height" android:password="true" />
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_weight="1.0" />
+   			  </LinearLayout>
+		</LinearLayout>
+		
+	</LinearLayout>
+	<TextView android:textSize="@dimen/pwd_text_msg_size"
+		android:gravity="top|center" android:id="@+id/messageText"
+		android:background="@drawable/keyboard_shadow" android:paddingLeft="16.0dip"
+		android:paddingRight="16.0dip" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:layout_marginTop="20.0dip"
+		android:layout_weight="1.0"  android:text="@string/input_info" android:textColor="@color/password_title" />
+	    <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" 
+	    android:stretchColumns="0,2,4">
+	    	<ImageView android:background="@drawable/key_press_bg" android:layout_width="fill_parent"
+	    	android:layout_height="0.1dip"/>
+	    	<TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" >
+	    		<ImageButton android:id="@+id/key1" android:src="@drawable/keyboard1" android:background="@drawable/key_bg"/>
+	    		<ImageView android:background="@drawable/key_press_bg" android:layout_width="0.1dip"/>
+	    		<ImageButton android:id="@+id/key2" android:src="@drawable/keyboard2" android:background="@drawable/key_bg"/>
+	    		<ImageView android:background="@drawable/key_press_bg" android:layout_width="0.1dip"/>
+	    		<ImageButton android:id="@+id/key3" android:src="@drawable/keyboard3" android:background="@drawable/key_bg"/>
+	    	</TableRow>
+	    	<ImageView android:background="@drawable/key_press_bg" android:layout_width="fill_parent"
+	    	android:layout_height="0.1dip"/>
+	    	<TableRow >
+	    		<ImageButton android:id="@+id/key4" android:src="@drawable/keyboard4" android:background="@drawable/key_bg"/>
+	    		<ImageView android:background="@drawable/key_press_bg" android:layout_width="0.1dip"/>
+	    		<ImageButton android:id="@+id/key5" android:src="@drawable/keyboard5" android:background="@drawable/key_bg"/>
+	    		<ImageView android:background="@drawable/key_press_bg" android:layout_width="0.1dip"/>
+	    		<ImageButton android:id="@+id/key6" android:src="@drawable/keyboard6" android:background="@drawable/key_bg"/>
+	    	</TableRow>
+	    	<ImageView android:background="@drawable/key_press_bg" android:layout_width="fill_parent"
+	    	android:layout_height="0.1dip"/>
+	    	<TableRow >
+	    		<ImageButton android:id="@+id/key7" android:src="@drawable/keyboard7" android:background="@drawable/key_bg"/>
+	    		<ImageView android:background="@drawable/key_press_bg" android:layout_width="0.1dip"/>
+	    		<ImageButton android:id="@+id/key8" android:src="@drawable/keyboard8" android:background="@drawable/key_bg"/>
+	    		<ImageView android:background="@drawable/key_press_bg" android:layout_width="0.1dip"/>
+	    		<ImageButton android:id="@+id/key9" android:src="@drawable/keyboard9" android:background="@drawable/key_bg"/>
+	    	</TableRow>
+	    	<ImageView android:background="@drawable/key_press_bg" android:layout_width="fill_parent"
+	    	android:layout_height="0.1dip"/>
+	    	<TableRow >
+	    		<ImageView  android:background="@drawable/key_bg"/>
+	    		<ImageView android:background="@drawable/key_press_bg" android:layout_width="0.1dip"/>
+	    		<ImageButton android:id="@+id/key0" android:src="@drawable/keyboard0" android:background="@drawable/key_bg"/>
+	    		<ImageView android:background="@drawable/key_press_bg" android:layout_width="0.1dip"/>
+	    		<ImageButton android:id="@+id/back" android:src="@drawable/keyboard_backspace" android:background="@drawable/key_bg"/>
+	    	</TableRow>
+	    </TableLayout>
+</LinearLayout>

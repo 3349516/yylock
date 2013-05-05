@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.seven.lock.view.RelativeLayoutWithContextMenuInfo android:gravity="center_vertical"
+	android:background="@drawable/listview_selector_background"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	xmlns:android="http://schemas.android.com/apk/res/android"  >
+	<ImageView android:id="@+id/app_icon" android:layout_width="48.0dip"
+		android:layout_height="48.0dip" android:layout_marginLeft="10.0dip"
+		android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip"
+		android:layout_marginBottom="5.0dip" android:layout_centerVertical="true" />
+	<TextView android:id="@+id/app_name" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_weight="1.0"
+		style="@style/TextAppearanceMedium"  android:layout_centerVertical="true"
+		android:layout_toRightOf="@+id/app_icon" android:layout_toLeftOf="@+id/has_encrypt"/>
+	<com.seven.lock.view.SwitchView
+		android:id="@+id/has_encrypt" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_marginRight="10.0dip" 
+		android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+	<ImageView android:id="@+id/line" android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"  
+	    android:layout_below="@+id/app_icon"  android:background="@drawable/list_divider"
+	    />
+</com.seven.lock.view.RelativeLayoutWithContextMenuInfo>
