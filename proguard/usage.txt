@@ -1,18 +1,28 @@
 android.annotation.SuppressLint
 android.annotation.TargetApi
+com.kuguo.ad.JsonEntity
 com.kuguo.ad.KuguoAdsManager:
-    public static final int STYLE_SIDE
-    public static final int STYLE_FREE
+    public static final int STYLE_KUZAI
+    public static final int STYLE_KUXUAN
+    public static final int APPTYPE
+    public static final int GAMETYPE
     public void stopPushMessage(android.content.Context)
+    public void showAppList(android.content.Context)
+    public void setKuzaiPosition(boolean,int)
+    public void setKuxuanPosition(int,int)
+    public void setDefaultAppType(android.content.Context,int)
 com.kuguo.ad.MainService:
     public static void a(android.content.Context)
 com.kuguo.ad.a:
     public a()
-com.kuguo.ad.ae
-com.kuguo.ad.b:
-    public b()
-com.kuguo.ad.r:
-    public r()
+    public static void b(android.content.Context,int)
+com.kuguo.ad.au:
+    public au()
+com.kuguo.ad.bx
+com.kuguo.ad.d:
+    public d()
+com.kuguo.ad.s:
+    public s()
 com.kuguo.c.a:
     public a()
 com.kuguo.c.b:

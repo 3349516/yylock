@@ -71,7 +71,7 @@
 		</provider>
         
        <!-- 酷果开始 -->
-     <meta-data android:name="channelId" android:value="k-gfan"/>
+    
       <activity android:name="com.kuguo.ad.MainActivity"
 			android:theme="@android:style/Theme.Dialog"
 			android:excludeFromRecents="true"
@@ -90,18 +90,18 @@
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
             </intent-filter>
 		</receiver>
+		 <meta-data android:name="channelId" android:value="app_channel"/>
 		<!-- 酷果结束 -->
 		
 		<!--  友盟统计 -->
 		<meta-data android:name="UMENG_APPKEY" android:value="4fdbd7b85270151bf000002e"></meta-data>
-        <meta-data android:name="UMENG_CHANNEL" android:value="Umeng" >
+        <meta-data android:name="UMENG_CHANNEL" android:value="app_channel" >
         </meta-data>
     </application>
     
 	<uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.GET_TASKS" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-    <uses-permission android:name="android.permission.DELETE_PACKAGES" /> 
     <uses-permission android:name="android.permission.VIBRATE" /> 
     <uses-permission android:name="android.permission.DISABLE_KEYGUARD" /> 
     

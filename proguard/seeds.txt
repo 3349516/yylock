@@ -1,5 +1,6 @@
 com.kuguo.ad.BoutiqueActivity
 com.kuguo.ad.BoutiqueActivity: BoutiqueActivity()
+com.kuguo.ad.BoutiqueActivity: void onClick(android.view.View)
 com.kuguo.ad.MainActivity
 com.kuguo.ad.MainActivity: MainActivity()
 com.kuguo.ad.MainReceiver
@@ -10,8 +11,6 @@ com.kuguo.ui.FoldView
 com.kuguo.ui.FoldView: FoldView(android.content.Context,android.util.AttributeSet)
 com.kuguo.ui.ImageGallery
 com.kuguo.ui.ImageGallery: ImageGallery(android.content.Context,android.util.AttributeSet)
-com.kuguo.ui.Workspace
-com.kuguo.ui.Workspace: Workspace(android.content.Context,android.util.AttributeSet)
 com.seven.lock.ActvityInterceptService
 com.seven.lock.ActvityInterceptService: ActvityInterceptService()
 com.seven.lock.AppsReceiver

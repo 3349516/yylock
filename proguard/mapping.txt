@@ -1,46 +1,76 @@
 com.kuguo.a.a -> com.kuguo.a.a:
+    void a(com.kuguo.a.f,int) -> a
+    void a(com.kuguo.a.f,long) -> a
+com.kuguo.a.b -> com.kuguo.a.b:
+    java.lang.String a -> a
+    java.lang.String b -> b
+    int c -> c
+    int d -> d
+    int e -> e
+    java.lang.String f -> f
+    java.lang.String g -> g
+    int h -> h
+    java.lang.String i -> i
+    java.lang.String toString() -> toString
+com.kuguo.a.c -> com.kuguo.a.c:
+    com.kuguo.a.c b -> b
+    com.kuguo.b.c c -> c
+    java.util.LinkedList d -> d
+    com.kuguo.a.e e -> e
+    android.content.Context a -> a
+    boolean f -> f
+    boolean g -> g
+    com.kuguo.a.c a(android.content.Context) -> a
+    com.kuguo.a.c a() -> a
+    boolean b() -> b
+    boolean c() -> c
+    java.util.List d() -> d
+    boolean a(com.kuguo.a.f) -> a
+    com.kuguo.a.f b(com.kuguo.a.f) -> b
+    void c(com.kuguo.a.f) -> c
+    void d(com.kuguo.a.f) -> d
+    void e(com.kuguo.a.f) -> e
+    void f(com.kuguo.a.f) -> f
+    com.kuguo.a.b g(com.kuguo.a.f) -> g
+com.kuguo.a.d -> com.kuguo.a.d:
     void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
     void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
-com.kuguo.a.b -> com.kuguo.a.b:
-    com.kuguo.a.a a -> a
+com.kuguo.a.e -> com.kuguo.a.e:
+    com.kuguo.a.d a -> a
     java.util.List a() -> a
-    void a(com.kuguo.a.e) -> a
-    void b(com.kuguo.a.e) -> b
-    void c(com.kuguo.a.e) -> c
-com.kuguo.a.c -> com.kuguo.a.c:
-    void a(com.kuguo.a.d,int) -> a
-    void a(com.kuguo.a.d,long) -> a
-com.kuguo.a.d -> com.kuguo.a.d:
-    com.kuguo.b.b a -> a
+    void a(com.kuguo.a.b) -> a
+    void b(com.kuguo.a.b) -> b
+    void c(com.kuguo.a.b) -> c
+com.kuguo.a.f -> com.kuguo.a.f:
+    com.kuguo.b.a a -> a
     java.io.File b -> b
     int c -> c
     int d -> d
     int e -> e
-    com.kuguo.a.c f -> f
+    com.kuguo.a.a f -> f
     int g -> g
-    com.kuguo.a.f h -> h
+    com.kuguo.a.c h -> h
     java.io.BufferedInputStream i -> i
     int j -> j
     int k -> k
-    java.lang.Exception l -> l
-    java.lang.String m -> m
-    java.lang.Object n -> n
+    java.lang.String l -> l
+    java.lang.Object m -> m
+    java.lang.String n -> n
     java.lang.String o -> o
     java.lang.String p -> p
-    java.lang.String q -> q
     void q() -> n
     java.lang.String a() -> a
-    com.kuguo.b.b b() -> b
+    com.kuguo.b.a b() -> b
     java.io.File c() -> c
-    void a(com.kuguo.b.b,int) -> a
+    void a(com.kuguo.b.a,int) -> a
     void a(java.io.InputStream) -> a
-    void a(java.lang.Exception) -> a
+    void a$698b7e31() -> o
     void d() -> d
     void e() -> e
-    void r() -> o
+    void r() -> p
     int g() -> f
     void a(int) -> a
-    void a(com.kuguo.a.c) -> a
+    void a(com.kuguo.a.a) -> a
     int h() -> g
     int i() -> h
     java.lang.String j() -> i
@@ -52,93 +82,69 @@ com.kuguo.a.d -> com.kuguo.a.d:
     java.lang.String toString() -> toString
     void a(java.lang.Object) -> a
     java.lang.Object n() -> m
-com.kuguo.a.e -> com.kuguo.a.e:
-    java.lang.String a -> a
-    java.lang.String b -> b
-    int c -> c
-    int d -> d
-    int e -> e
-    java.lang.String f -> f
-    java.lang.String g -> g
-    int h -> h
-    java.lang.String i -> i
-    java.lang.String toString() -> toString
-com.kuguo.a.f -> com.kuguo.a.f:
-    com.kuguo.a.f b -> b
-    com.kuguo.b.d c -> c
-    java.util.LinkedList d -> d
-    com.kuguo.a.b e -> e
-    android.content.Context a -> a
-    boolean f -> f
-    boolean g -> g
-    com.kuguo.a.f a(android.content.Context) -> a
-    com.kuguo.a.f a() -> a
-    boolean b() -> b
-    boolean c() -> c
-    java.util.List d() -> d
-    boolean a(com.kuguo.a.d) -> a
-    com.kuguo.a.d b(com.kuguo.a.d) -> b
-    void c(com.kuguo.a.d) -> c
-    void d(com.kuguo.a.d) -> d
-    void e(com.kuguo.a.d) -> e
-    void f(com.kuguo.a.d) -> f
-    com.kuguo.a.e g(com.kuguo.a.d) -> g
+    long o() -> q
 com.kuguo.ad.BoutiqueActivity -> com.kuguo.ad.BoutiqueActivity:
     android.widget.LinearLayout a -> a
-    android.widget.FrameLayout b -> b
-    android.widget.FrameLayout c -> c
-    com.kuguo.ui.Workspace d -> d
-    java.util.List e -> e
-    android.os.Handler f -> f
-    android.app.Activity g -> g
-    int h -> h
-    int i -> i
-    android.app.Activity a() -> a
+    android.app.Activity b -> b
+    com.kuguo.ad.ah c -> c
+    android.widget.Button d -> d
+    android.widget.Button e -> e
+    android.widget.FrameLayout f -> f
+    android.app.Activity c() -> a
     void onCreate(android.os.Bundle) -> onCreate
-    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
-    void a(com.kuguo.ad.o[]) -> a
     void finish() -> finish
-    java.util.List a(com.kuguo.ad.BoutiqueActivity,java.util.List) -> a
-    java.util.List a$12d2dc1(com.kuguo.ad.o[]) -> b
-    java.util.List a(com.kuguo.ad.BoutiqueActivity) -> a
-    int b(com.kuguo.ad.BoutiqueActivity) -> b
-    void b(com.kuguo.ad.BoutiqueActivity,java.util.List) -> b
-    void c(com.kuguo.ad.BoutiqueActivity,java.util.List) -> c
-    void d(com.kuguo.ad.BoutiqueActivity,java.util.List) -> d
-    android.os.Handler c(com.kuguo.ad.BoutiqueActivity) -> c
-    com.kuguo.ui.Workspace d(com.kuguo.ad.BoutiqueActivity) -> d
+    void onClick(android.view.View) -> onClick
+    void a() -> b
+    void b() -> c
 com.kuguo.ad.KuguoAdsManager -> com.kuguo.ad.a:
     java.lang.String cooId -> a
-    com.kuguo.ad.c mInstallPackageReceiver -> c
-    com.kuguo.ad.KuguoAdsManager manager -> d
+    com.kuguo.ad.KuguoAdsManager manager -> e
     boolean hasRequest -> b
-    android.os.Handler handler -> e
-    com.kuguo.ad.s kuguoSide -> f
-    com.kuguo.ad.s kuguoFree -> g
-    boolean showKuguoSide -> h
-    boolean showKuguoFree -> i
-    java.util.Set listener -> j
+    android.os.Handler mHandler -> f
+    com.kuguo.ad.bm kuguoSide -> g
+    com.kuguo.ad.bm kuguoFree -> h
+    boolean showKuguoSide -> i
+    boolean showKuguoFree -> j
+    com.kuguo.ad.as dta -> c
+    boolean kuzaiSide -> k
+    int kuzaiY -> l
+    int kuxuanX -> m
+    int kuxuanY -> n
+    boolean hasStartThread -> o
+    java.util.Timer timer -> d
     com.kuguo.ad.KuguoAdsManager getInstance() -> a
     void receivePushMessage$1a552341(android.content.Context) -> a
     void setCooId(android.content.Context,java.lang.String) -> a
     void showSprite(android.content.Context) -> b
-    void showKuguoSprite(android.content.Context,int) -> a
-    void removeKuguoSprite(android.content.Context,int) -> b
-    void recycle(android.content.Context) -> c
-    void addOnAppInstallListener(com.kuguo.ad.al) -> a
-    void resetOnAppInstallListener() -> b
+    void showKuguoSprite$1a54e370(android.content.Context) -> c
+    void startDetectTopApp(android.content.Context) -> d
+    void removeKuguoSprite(android.content.Context,int) -> a
+    void recycle(android.content.Context) -> e
+    void kuzaiAnim$255f295() -> b
     boolean access$000(com.kuguo.ad.KuguoAdsManager) -> a
-    com.kuguo.ad.s access$102(com.kuguo.ad.KuguoAdsManager,com.kuguo.ad.s) -> a
-    boolean access$200(com.kuguo.ad.KuguoAdsManager) -> b
-    com.kuguo.ad.s access$302(com.kuguo.ad.KuguoAdsManager,com.kuguo.ad.s) -> b
-    java.util.Set access$400() -> c
+    com.kuguo.ad.bm access$100(com.kuguo.ad.KuguoAdsManager) -> b
+    com.kuguo.ad.bm access$102(com.kuguo.ad.KuguoAdsManager,com.kuguo.ad.bm) -> a
+    boolean access$200(com.kuguo.ad.KuguoAdsManager) -> c
+    int access$300(com.kuguo.ad.KuguoAdsManager) -> d
+    boolean access$400(com.kuguo.ad.KuguoAdsManager) -> e
+    com.kuguo.ad.bm access$500(com.kuguo.ad.KuguoAdsManager) -> f
+    com.kuguo.ad.bm access$502(com.kuguo.ad.KuguoAdsManager,com.kuguo.ad.bm) -> b
+    int access$600(com.kuguo.ad.KuguoAdsManager) -> g
+    int access$700(com.kuguo.ad.KuguoAdsManager) -> h
+    void access$900(com.kuguo.ad.KuguoAdsManager,android.content.Context) -> a
+    void access$1000(com.kuguo.ad.KuguoAdsManager,android.content.Context) -> b
+    android.os.Handler access$1100(com.kuguo.ad.KuguoAdsManager) -> i
 com.kuguo.ad.MainActivity -> com.kuguo.ad.MainActivity:
-    com.kuguo.ad.o a -> a
+    com.kuguo.ad.bk a -> a
+    android.app.Activity b -> b
     void onCreate(android.os.Bundle) -> onCreate
-    void a(android.content.Context,com.kuguo.ad.o) -> a
+    void a(android.content.Context,com.kuguo.ad.bk) -> a
+    void b(android.content.Context,java.lang.String,com.kuguo.ad.bk) -> b
     void onActivityResult(int,int,android.content.Intent) -> onActivityResult
     void onDestroy() -> onDestroy
-    void a$7f6ef3d() -> a
+    android.app.Activity a() -> a
+    void finish() -> finish
+    void a(android.content.Context,java.lang.String,com.kuguo.ad.bk) -> a
 com.kuguo.ad.MainReceiver -> com.kuguo.ad.MainReceiver:
     android.os.PowerManager$WakeLock a -> a
     java.lang.Object b -> b
@@ -146,16 +152,19 @@ com.kuguo.ad.MainReceiver -> com.kuguo.ad.MainReceiver:
     android.os.Handler f -> f
     android.os.PowerManager$WakeLock c -> c
     java.lang.Object d -> d
+    java.util.Set g -> g
     void onReceive(android.content.Context,android.content.Intent) -> onReceive
     void a(android.content.Context,android.content.Intent) -> a
     void a(android.app.Service,int) -> a
     void a() -> a
+    void a(com.kuguo.ad.bq) -> a
     android.content.Context a(com.kuguo.ad.MainReceiver) -> a
+    java.util.Set b() -> b
     void a$4840372a(android.content.Context) -> a
 com.kuguo.ad.MainService -> com.kuguo.ad.MainService:
     com.kuguo.ad.q a -> a
-    com.kuguo.ad.ap b -> b
-    com.kuguo.ad.v c -> c
+    com.kuguo.ad.ar b -> b
+    com.kuguo.ad.t c -> c
     android.os.Looper d -> d
     int e -> e
     void onCreate() -> onCreate
@@ -165,7 +174,7 @@ com.kuguo.ad.MainService -> com.kuguo.ad.MainService:
     void onDestroy() -> onDestroy
     void a(android.content.Context,int) -> a
     void a(com.kuguo.ad.MainService) -> a
-    com.kuguo.ad.ap b(com.kuguo.ad.MainService) -> b
+    com.kuguo.ad.ar b(com.kuguo.ad.MainService) -> b
     int a() -> a
     void a(com.kuguo.ad.MainService,boolean) -> a
     boolean c$2ae3088e() -> b
@@ -176,12 +185,12 @@ com.kuguo.ad.a -> com.kuguo.ad.b:
     java.lang.String a(android.content.Context) -> a
     int b(android.content.Context) -> b
     int c(android.content.Context) -> c
-    com.kuguo.ad.o[] d(android.content.Context) -> d
-    com.kuguo.ad.o a(android.content.Context,java.lang.String) -> a
-    com.kuguo.ad.o b(android.content.Context,java.lang.String) -> b
-    boolean a(android.content.Context,com.kuguo.ad.o) -> a
+    com.kuguo.ad.bk[] d(android.content.Context) -> d
+    com.kuguo.ad.bk a(android.content.Context,java.lang.String) -> a
+    com.kuguo.ad.bk b(android.content.Context,java.lang.String) -> b
+    boolean a(android.content.Context,com.kuguo.ad.bk) -> a
     int e(android.content.Context) -> e
-    boolean b(android.content.Context,com.kuguo.ad.o) -> b
+    boolean b(android.content.Context,com.kuguo.ad.bk) -> b
     boolean f(android.content.Context) -> f
     boolean a(android.content.Context,int,int) -> a
     void g(android.content.Context) -> g
@@ -190,64 +199,163 @@ com.kuguo.ad.a -> com.kuguo.ad.b:
     void a$552c4e01() -> a
     boolean i(android.content.Context) -> i
     int a(android.content.Context,java.lang.String,int) -> a
-    android.graphics.Bitmap a$5bc1eb55(java.lang.String) -> a
+    android.graphics.Bitmap a(android.content.Context,java.lang.String,boolean) -> a
     boolean c(android.content.Context,java.lang.String) -> c
     boolean d(android.content.Context,java.lang.String) -> d
     android.content.Intent e(android.content.Context,java.lang.String) -> e
     java.io.File b$10dc6ed9(java.lang.String,int) -> a
     android.content.Intent a$6fd45526(java.io.File) -> a
     void a$7555e5c(android.content.Context,java.lang.String,java.lang.String) -> a
-    void a$510e55ee(java.lang.String,int) -> b
-    void a(android.content.Context,android.content.Intent,int,com.kuguo.ad.o,int,boolean,boolean) -> a
+    boolean a$510e55f2(java.lang.String,int) -> b
+    void a(android.content.Context,android.content.Intent,int,com.kuguo.ad.bk,int,boolean,boolean) -> a
+    android.graphics.Bitmap a(android.graphics.Bitmap,android.graphics.Bitmap) -> a
     int a() -> b
     void a(long) -> a
     void b(long) -> b
     long b() -> c
     long c() -> d
-    boolean b(java.lang.String,java.lang.String) -> b
-    java.lang.String b(java.lang.String) -> f
+    boolean b(java.lang.String,java.lang.String) -> c
+    java.lang.String b(java.lang.String) -> d
     int a(android.content.Context,int) -> a
     int a(android.content.Context,java.lang.String,java.lang.String) -> b
     java.lang.String j(android.content.Context) -> j
-    boolean c(java.lang.String) -> b
+    boolean c(java.lang.String) -> a
     android.widget.ImageView a(android.view.View) -> a
     boolean f(android.content.Context,java.lang.String) -> f
     java.lang.String k(android.content.Context) -> k
-    java.lang.String l(android.content.Context) -> t
-    com.kuguo.ad.o[] m(android.content.Context) -> l
-    com.kuguo.ad.o g(android.content.Context,java.lang.String) -> g
-    boolean a(android.content.Context,com.kuguo.ad.o[]) -> a
-    boolean d(java.lang.String) -> c
-    java.lang.String e(java.lang.String) -> d
+    java.lang.String l(android.content.Context) -> A
+    com.kuguo.ad.bk[] m(android.content.Context) -> l
+    com.kuguo.ad.bk[] n(android.content.Context) -> m
+    com.kuguo.ad.bk g(android.content.Context,java.lang.String) -> g
+    com.kuguo.ad.bk[] a(com.kuguo.ad.bk[],com.kuguo.ad.bk[]) -> a
+    boolean a(android.content.Context,com.kuguo.ad.bk[],int) -> a
+    boolean b(android.content.Context,com.kuguo.ad.bk[],int) -> b
+    boolean d(java.lang.String) -> e
+    java.lang.String e(java.lang.String) -> b
     boolean a(java.io.File,java.lang.String) -> a
     java.lang.String a(java.io.File) -> b
     boolean a(java.lang.String,int,int) -> a
     boolean b(java.lang.String,int,int) -> b
-    int n(android.content.Context) -> m
-    boolean o(android.content.Context) -> n
+    int o(android.content.Context) -> n
     boolean p(android.content.Context) -> o
-    android.location.Location q(android.content.Context) -> p
+    boolean r(android.content.Context) -> p
+    android.location.Location t(android.content.Context) -> q
     java.lang.String a(double,double) -> a
-    java.lang.String f(java.lang.String) -> g
-    java.lang.String g(java.lang.String) -> h
-    void h(java.lang.String) -> e
+    java.lang.String f(java.lang.String) -> f
+    java.lang.String g(java.lang.String) -> g
+    void h(java.lang.String) -> c
     java.lang.String d() -> e
     void a(android.content.Context,boolean) -> a
-    boolean r(android.content.Context) -> q
-    void b(android.content.Context,int) -> b
-    int s(android.content.Context) -> r
-    int t(android.content.Context) -> s
+    boolean u(android.content.Context) -> r
+    int v(android.content.Context) -> s
+    boolean a(android.content.Context,android.location.Location,java.lang.String) -> a
+    int w(android.content.Context) -> t
+    int x(android.content.Context) -> u
+    long e() -> f
+    long f() -> g
+    boolean g() -> h
+    void b(java.io.File) -> c
+    boolean y$faab209() -> i
+    boolean z$faab209() -> j
+    android.graphics.drawable.Drawable a$40883993(android.graphics.drawable.Drawable) -> a
+    java.lang.String A(android.content.Context) -> v
+    com.kuguo.ad.bk a(com.kuguo.ad.ce) -> a
+    void h() -> k
+    void a(android.content.Context,com.kuguo.ad.at[]) -> a
+    int B(android.content.Context) -> w
+    int C(android.content.Context) -> x
+    void c(android.content.Context,int) -> b
+    int D(android.content.Context) -> y
+    void d(android.content.Context,int) -> c
+    int E(android.content.Context) -> z
+    void c(java.lang.String,java.lang.String) -> b
 com.kuguo.ad.aa -> com.kuguo.ad.c:
-    com.kuguo.ad.l a -> a
-    void onClick(android.view.View) -> onClick
+    com.kuguo.ad.ah a -> a
+    void run() -> run
 com.kuguo.ad.ab -> com.kuguo.ad.d:
-    android.content.Context a -> a
-    com.kuguo.ad.ap b -> b
-    int c -> c
-    void a() -> a
-    boolean d() -> b
+    com.kuguo.ad.ah a -> a
     void run() -> run
 com.kuguo.ad.ac -> com.kuguo.ad.e:
+    android.content.Context a -> a
+    com.kuguo.ad.ah b -> b
+    void run() -> run
+com.kuguo.ad.ad -> com.kuguo.ad.f:
+    android.content.Context a -> a
+    com.kuguo.ad.ah b -> b
+    void run() -> run
+com.kuguo.ad.ae -> com.kuguo.ad.g:
+    android.app.Activity a -> a
+    android.webkit.WebView b -> b
+    android.widget.LinearLayout c -> c
+    android.widget.ProgressBar d -> d
+    android.graphics.drawable.Drawable e -> e
+    android.graphics.drawable.Drawable f -> f
+    android.graphics.drawable.Drawable g -> g
+    android.graphics.drawable.Drawable h -> h
+    android.widget.ImageButton i -> i
+    android.widget.ImageButton j -> j
+    com.kuguo.ad.w k -> k
+    void onClick(android.view.View) -> onClick
+    void b(android.widget.ImageButton) -> a
+    void a(java.lang.String,byte[]) -> a
+    void a(com.kuguo.ad.ae,java.lang.String) -> a
+    android.widget.ProgressBar a(com.kuguo.ad.ae) -> a
+    android.widget.ImageButton b(com.kuguo.ad.ae) -> b
+    void a(com.kuguo.ad.ae,android.widget.ImageButton) -> a
+    void b(com.kuguo.ad.ae,android.widget.ImageButton) -> b
+    android.widget.ImageButton c(com.kuguo.ad.ae) -> c
+    com.kuguo.ad.w d(com.kuguo.ad.ae) -> d
+com.kuguo.ad.af -> com.kuguo.ad.h:
+    com.kuguo.ad.h a -> a
+    void onClick(android.view.View) -> onClick
+com.kuguo.ad.ag -> com.kuguo.ad.i:
+    void a(org.json.JSONObject) -> a
+    java.lang.String a() -> a
+com.kuguo.ad.ah -> com.kuguo.ad.j:
+    android.widget.LinearLayout a -> a
+    android.widget.FrameLayout b -> b
+    java.util.List c -> c
+    java.util.List d -> d
+    java.util.List e -> e
+    java.util.List f -> f
+    android.app.Activity g -> g
+    android.os.Handler h -> h
+    int i -> i
+    android.view.View j -> j
+    android.view.View k -> k
+    java.util.List l -> l
+    com.kuguo.ad.r m -> m
+    boolean n -> n
+    boolean o -> o
+    void a(android.content.Context) -> a
+    void a(android.content.Context,int) -> a
+    void a(int,int) -> a
+    void a(java.util.List,int) -> a
+    boolean a(com.kuguo.ad.bk,java.util.List) -> b
+    java.util.List a(java.util.List) -> a
+    boolean b(com.kuguo.ad.bk,java.util.List) -> c
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+    void a(int) -> a
+    void b(int) -> b
+    void a(com.kuguo.ad.r) -> a
+    void a(com.kuguo.ad.bk[],int) -> a
+    void b(com.kuguo.ad.bk[],int) -> b
+    android.app.Activity a(com.kuguo.ad.ah) -> a
+    int b(com.kuguo.ad.ah) -> b
+    void a(com.kuguo.ad.ah,android.content.Context,int) -> a
+    java.util.List c(com.kuguo.ad.ah) -> c
+    void a(com.kuguo.ad.ah,int) -> a
+    android.os.Handler d(com.kuguo.ad.ah) -> d
+    java.util.List e(com.kuguo.ad.ah) -> e
+    java.util.List f(com.kuguo.ad.ah) -> f
+    android.view.View g(com.kuguo.ad.ah) -> g
+    boolean a$12566479(com.kuguo.ad.ah) -> h
+    java.util.List a(com.kuguo.ad.ah,java.util.List) -> a
+    boolean a$1f574448(com.kuguo.ad.bk,java.util.List) -> a
+    boolean b$12566479(com.kuguo.ad.ah) -> i
+    java.util.List h(com.kuguo.ad.ah) -> j
+    android.view.View i(com.kuguo.ad.ah) -> k
+com.kuguo.ad.ai -> com.kuguo.ad.k:
     android.widget.ImageView a -> a
     android.widget.ImageView b -> b
     android.widget.TextView c -> c
@@ -256,47 +364,51 @@ com.kuguo.ad.ac -> com.kuguo.ad.e:
     void a(java.lang.String) -> a
     void a() -> a
     void a(boolean) -> a
-com.kuguo.ad.ad -> com.kuguo.ad.f:
-    com.kuguo.ad.l a -> a
+com.kuguo.ad.aj -> com.kuguo.ad.l:
+    com.kuguo.ad.h a -> a
     void handleMessage(android.os.Message) -> handleMessage
-com.kuguo.ad.af -> com.kuguo.ad.g:
-    com.kuguo.ad.ag a -> a
+com.kuguo.ad.ak -> com.kuguo.ad.m:
+    android.content.Context a -> a
+    java.util.List b -> b
+    com.kuguo.ad.ah c -> c
+    java.util.Map d -> d
+    int e -> e
+    android.widget.LinearLayout f -> f
+    android.widget.LinearLayout g -> g
+    java.util.List h -> h
+    java.util.List i -> i
+    void b() -> a
+    void a(int,android.graphics.drawable.StateListDrawable) -> a
+    void onClick(android.view.View) -> onClick
+    void a(int) -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+    void a() -> b
+    void b(int) -> b
+    void a$72fbd590(java.lang.String,java.lang.String) -> a
+com.kuguo.ad.al -> com.kuguo.ad.n:
+    com.kuguo.ad.u a -> a
     void run() -> run
-com.kuguo.ad.ag -> com.kuguo.ad.h:
-    com.kuguo.ad.o a -> a
-    com.kuguo.ad.t b -> b
-    void a(com.kuguo.a.d,long) -> a
-    void a(com.kuguo.a.d,int) -> a
-com.kuguo.ad.ah -> com.kuguo.ad.i:
+com.kuguo.ad.am -> com.kuguo.ad.o:
+    com.kuguo.ad.ah a -> a
+    void run() -> run
+com.kuguo.ad.an -> com.kuguo.ad.p:
     java.lang.String a -> a
-    com.kuguo.ad.MainReceiver b -> b
-    void run() -> run
-com.kuguo.ad.ai -> com.kuguo.ad.j:
-    com.kuguo.ad.MainReceiver a -> a
+    void a(java.lang.String,java.lang.String) -> a
+    byte[] a() -> a
+    java.lang.String b() -> b
+com.kuguo.ad.ao -> com.kuguo.ad.q:
+    com.kuguo.ad.o a -> a
     void handleMessage(android.os.Message) -> handleMessage
-com.kuguo.ad.aj -> com.kuguo.ad.k:
-    com.kuguo.ad.BoutiqueActivity a -> a
-    void run() -> run
-com.kuguo.ad.ak -> com.kuguo.ad.l:
-    com.kuguo.ad.BoutiqueActivity a -> a
-    void a() -> a
-com.kuguo.ad.al -> com.kuguo.ad.m:
-    void a(com.kuguo.ad.o) -> a
-com.kuguo.ad.am -> com.kuguo.ad.n:
-    com.kuguo.ad.MainReceiver a -> a
-    void run() -> run
-com.kuguo.ad.an -> com.kuguo.ad.o:
+com.kuguo.ad.ap -> com.kuguo.ad.r:
     android.graphics.drawable.GradientDrawable a -> a
     android.graphics.drawable.GradientDrawable b -> b
     android.graphics.drawable.GradientDrawable c -> c
     android.graphics.drawable.GradientDrawable d -> d
     int e -> e
-    com.kuguo.ad.i f -> f
-com.kuguo.ad.ao -> com.kuguo.ad.p:
-    com.kuguo.ad.o[] a -> a
-    com.kuguo.ad.BoutiqueActivity b -> b
-    void run() -> run
-com.kuguo.ad.ap -> com.kuguo.ad.q:
+    com.kuguo.ad.e f -> f
+com.kuguo.ad.aq -> com.kuguo.ad.s:
+    void a(com.kuguo.ad.bk[],int) -> a
+com.kuguo.ad.ar -> com.kuguo.ad.t:
     java.lang.String a -> a
     java.lang.String b -> b
     java.lang.String c -> c
@@ -320,26 +432,64 @@ com.kuguo.ad.ap -> com.kuguo.ad.q:
     int u -> u
     void a() -> a
     byte[] b() -> b
-com.kuguo.ad.b -> com.kuguo.ad.r:
+com.kuguo.ad.as -> com.kuguo.ad.u:
+    android.content.Context b -> b
+    com.kuguo.ad.KuguoAdsManager a -> a
+    void run() -> run
+com.kuguo.ad.at -> com.kuguo.ad.v:
+    int a -> a
+    java.lang.String b -> b
+    java.lang.String c -> c
+    java.lang.String toString() -> toString
+    void a(org.json.JSONObject) -> a
+    java.lang.String a() -> a
+com.kuguo.ad.au -> com.kuguo.ad.w:
     char[] a -> a
     byte[] a(int) -> a
     long a(byte[]) -> a
     int b(byte[]) -> b
     int c(byte[]) -> c
     byte[] a(short) -> a
-com.kuguo.ad.c -> com.kuguo.ad.s:
-    com.kuguo.ad.KuguoAdsManager a -> a
-    void onReceive(android.content.Context,android.content.Intent) -> onReceive
-com.kuguo.ad.d -> com.kuguo.ad.t:
+com.kuguo.ad.av -> com.kuguo.ad.x:
     android.content.Context a -> a
-    com.kuguo.ad.o b -> b
-    void a(com.kuguo.a.d,long) -> a
-    void a(com.kuguo.a.d,int) -> a
-com.kuguo.ad.e -> com.kuguo.ad.u:
+    com.kuguo.ad.bk b -> b
+    void a(com.kuguo.a.f,long) -> a
+    void a(com.kuguo.a.f,int) -> a
+com.kuguo.ad.aw -> com.kuguo.ad.y:
+    java.lang.String a -> a
+    java.lang.String b -> b
+    java.lang.String c -> c
+    java.lang.String d -> d
+    java.lang.String e -> e
+    int f -> f
+    int g -> g
+    int h -> h
+    int i -> i
+    double j -> j
+    double k -> k
+    java.lang.String l -> l
+    java.lang.String m -> m
+    java.lang.String n -> n
+    java.lang.String o -> o
+    boolean p -> p
+    java.lang.String q -> q
+    java.lang.String r -> r
+    int s -> s
+    java.lang.String t -> t
+    java.lang.String u -> u
+    java.lang.String a(java.lang.String) -> a
+    java.lang.String toString() -> toString
+    org.json.JSONObject b() -> b
+    void a(org.json.JSONObject) -> a
+    java.lang.String a() -> a
+com.kuguo.ad.ax -> com.kuguo.ad.z:
+    com.kuguo.ad.bv a -> a
+    void run() -> run
+com.kuguo.ad.ay -> com.kuguo.ad.aa:
     android.content.Context a -> a
     com.kuguo.ad.KuguoAdsManager b -> b
     void run() -> run
-com.kuguo.ad.f -> com.kuguo.ad.v:
+com.kuguo.ad.az -> com.kuguo.ad.ab:
     android.widget.ImageView a -> a
     android.widget.TextView b -> b
     android.widget.ImageView c -> c
@@ -351,28 +501,13 @@ com.kuguo.ad.f -> com.kuguo.ad.v:
     void b(java.lang.String) -> b
     void a(float) -> a
     void a$1385ff() -> a
-com.kuguo.ad.g -> com.kuguo.ad.w:
-    android.content.Context b -> b
-    com.kuguo.ad.ap c -> c
-    int d -> d
-    com.kuguo.ad.z e -> e
-    com.kuguo.ad.x f -> f
-    int g -> g
-    java.lang.Object a -> a
-    android.os.Handler h -> h
-    com.kuguo.ui.c i -> i
-    void a(com.kuguo.ad.z) -> a
-    void a() -> a
-    boolean c() -> b
-    void a(java.io.InputStream) -> a
-    void a(com.kuguo.ad.o[]) -> a
-    void a(com.kuguo.ui.c) -> a
-    com.kuguo.ad.ap a(com.kuguo.ad.g) -> a
-    android.content.Context b(com.kuguo.ad.g) -> b
-    int c(com.kuguo.ad.g) -> c
-    void d(com.kuguo.ad.g) -> d
-    com.kuguo.ui.c e(com.kuguo.ad.g) -> e
-com.kuguo.ad.h -> com.kuguo.ad.x:
+com.kuguo.ad.b -> com.kuguo.ad.ac:
+    com.kuguo.ad.ae a -> a
+    boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String) -> shouldOverrideUrlLoading
+com.kuguo.ad.ba -> com.kuguo.ad.ad:
+    com.kuguo.ad.bm a -> a
+    void run() -> run
+com.kuguo.ad.bb -> com.kuguo.ad.ae:
     android.widget.ImageView a -> a
     android.widget.TextView b -> b
     android.widget.TextView c -> c
@@ -386,78 +521,53 @@ com.kuguo.ad.h -> com.kuguo.ad.x:
     void c(java.lang.String) -> c
     void a(int) -> a
     void a$1385ff() -> a
-com.kuguo.ad.i -> com.kuguo.ad.y:
-    boolean a -> a
-    android.widget.ImageView b -> b
-    android.widget.TextView c -> c
-    android.widget.TextView d -> d
-    android.widget.TextView e -> e
-    android.widget.TextView f -> f
-    com.kuguo.ui.ImageGallery g -> g
-    com.kuguo.ui.FoldView h -> h
-    android.widget.TextView i -> i
-    android.widget.ImageView j -> j
-    android.widget.TextView k -> k
-    android.widget.TextView l -> l
-    android.widget.LinearLayout m -> m
-    android.content.Context n -> n
-    android.view.View$OnClickListener o -> o
-    com.kuguo.ad.an p -> p
-    void a(android.graphics.Bitmap) -> a
-    void a(java.lang.String) -> a
-    void a() -> a
-    void b(java.lang.String) -> b
-    void c(java.lang.String) -> c
-    void a(float) -> a
-    void d(java.lang.String) -> d
-    void e(java.lang.String) -> e
-    void a(int) -> a
-    void a(android.graphics.Bitmap,int) -> a
-    void onClick(android.view.View) -> onClick
-    void a(java.util.Map) -> a
-    void a(android.view.View$OnClickListener) -> a
-    android.content.Context a(com.kuguo.ad.i) -> a
-com.kuguo.ad.j -> com.kuguo.ad.z:
-com.kuguo.ad.k -> com.kuguo.ad.aa:
-    com.kuguo.ad.aj a -> a
+com.kuguo.ad.bc -> com.kuguo.ad.af:
+    java.lang.String a -> a
+    java.lang.String b -> b
+    com.kuguo.ad.ak c -> c
     void run() -> run
-com.kuguo.ad.l -> com.kuguo.ad.ab:
-    int b -> b
-    com.kuguo.ad.o c -> c
-    com.kuguo.ad.i d -> d
-    android.app.Activity e -> e
-    com.kuguo.ad.x f -> f
-    boolean g -> g
-    android.os.Handler h -> h
-    android.view.View$OnClickListener a -> a
-    java.util.Map a(java.lang.String) -> a
-    void a() -> a
-    android.app.Activity a(com.kuguo.ad.l) -> a
-    com.kuguo.ad.i b(com.kuguo.ad.l) -> b
-    int c(com.kuguo.ad.l) -> c
-    com.kuguo.ad.o d(com.kuguo.ad.l) -> d
-    boolean e(com.kuguo.ad.l) -> e
-    boolean f(com.kuguo.ad.l) -> f
-com.kuguo.ad.m -> com.kuguo.ad.ac:
-    com.kuguo.ad.n a -> a
+com.kuguo.ad.bd -> com.kuguo.ad.ag:
+    com.kuguo.ad.bm a -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.kuguo.ad.be -> com.kuguo.ad.ah:
+    android.widget.LinearLayout a -> a
+    android.widget.LinearLayout b -> b
+    com.kuguo.ad.ak c -> c
+    void onAnimationStart(android.view.animation.Animation) -> onAnimationStart
+    void onAnimationRepeat(android.view.animation.Animation) -> onAnimationRepeat
+    void onAnimationEnd(android.view.animation.Animation) -> onAnimationEnd
+com.kuguo.ad.bf -> com.kuguo.ad.ai:
+    com.kuguo.ad.bm a -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.kuguo.ad.bg -> com.kuguo.ad.aj:
+com.kuguo.ad.bh -> com.kuguo.ad.ak:
+    com.kuguo.ad.bk a -> a
+    com.kuguo.ad.bi b -> b
     void run() -> run
-com.kuguo.ad.n -> com.kuguo.ad.ad:
+com.kuguo.ad.bi -> com.kuguo.ad.al:
     android.content.Context a -> a
     java.util.List b -> b
-    com.kuguo.ad.x c -> c
+    com.kuguo.ad.br c -> c
     int d -> d
-    android.os.Handler e -> e
-    android.os.Handler f -> f
+    int e -> e
+    boolean f -> f
+    int g -> g
+    android.os.Handler h -> h
+    android.os.Handler i -> i
     int getCount() -> getCount
     java.lang.Object getItem(int) -> getItem
     long getItemId(int) -> getItemId
     android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
-    void a(com.kuguo.ad.o) -> a
-    android.content.Context a(com.kuguo.ad.n) -> a
-    java.util.List b(com.kuguo.ad.n) -> b
-    void a(com.kuguo.ad.n,com.kuguo.ad.o) -> a
-    void a(com.kuguo.ad.n,java.util.List) -> a
-com.kuguo.ad.o -> com.kuguo.ad.ae:
+    void a() -> a
+    void a(com.kuguo.ad.bk) -> a
+    android.content.Context a(com.kuguo.ad.bi) -> a
+    java.util.List b(com.kuguo.ad.bi) -> b
+    void a(com.kuguo.ad.bi,com.kuguo.ad.bk) -> a
+    void a(com.kuguo.ad.bi,java.util.List) -> a
+com.kuguo.ad.bj -> com.kuguo.ad.am:
+    com.kuguo.ad.bi a -> a
+    void run() -> run
+com.kuguo.ad.bk -> com.kuguo.ad.an:
     java.lang.String a -> a
     java.lang.String b -> b
     long c -> c
@@ -494,34 +604,16 @@ com.kuguo.ad.o -> com.kuguo.ad.ae:
     java.lang.String H -> H
     int I -> I
     int J -> J
-    com.kuguo.ad.o[] a(byte[]) -> a
+    int K -> K
+    com.kuguo.ad.bk[] a(byte[]) -> a
     java.lang.String toString() -> toString
     java.lang.String a() -> a
     boolean a(java.lang.String) -> a
     void b() -> b
-com.kuguo.ad.p -> com.kuguo.ad.af:
-    com.kuguo.ad.n a -> a
+com.kuguo.ad.bl -> com.kuguo.ad.ao:
+    com.kuguo.ad.bi a -> a
     void run() -> run
-com.kuguo.ad.q -> com.kuguo.ad.ag:
-    android.content.Context a -> a
-    com.kuguo.ad.q b -> b
-    android.os.Handler c -> c
-    com.kuguo.ad.q a(android.content.Context) -> a
-    void a(java.io.InputStream) -> a
-    void a(com.kuguo.ad.o[]) -> a
-    void a(com.kuguo.ad.o) -> a
-    void a(android.content.Context,com.kuguo.ad.o) -> a
-    int a(int) -> a
-    android.content.Intent b(android.content.Context,com.kuguo.ad.o) -> b
-    void a() -> a
-    android.content.Context a(com.kuguo.ad.q) -> a
-com.kuguo.ad.r -> com.kuguo.ad.ah:
-    org.apache.http.client.HttpClient a(android.content.Context) -> a
-    java.lang.String c(android.content.Context) -> c
-    java.lang.String d(android.content.Context) -> b
-    void a$5b2a57be(android.content.Context,int,java.lang.String,int,android.content.Intent,java.lang.String,int) -> a
-    void a(android.content.Context,com.kuguo.a.d,com.kuguo.a.c) -> a
-com.kuguo.ad.s -> com.kuguo.ad.ai:
+com.kuguo.ad.bm -> com.kuguo.ad.ap:
     float a -> a
     float b -> b
     float c -> c
@@ -533,58 +625,326 @@ com.kuguo.ad.s -> com.kuguo.ad.ai:
     int i -> i
     int j -> j
     int k -> k
-    com.kuguo.ad.j l -> l
-    com.kuguo.ad.s m -> m
-    com.kuguo.ad.s n -> n
+    com.kuguo.ad.bg l -> l
+    com.kuguo.ad.bm m -> m
+    com.kuguo.ad.bm n -> n
     android.view.WindowManager$LayoutParams o -> o
     int p -> p
     android.content.Context q -> q
-    com.kuguo.ad.s a(android.content.Context,int) -> a
+    android.os.Handler r -> r
+    int s -> s
+    int t -> t
+    int u -> u
+    int v -> v
+    boolean w -> w
+    int x -> x
+    android.content.BroadcastReceiver y -> y
+    int z -> z
+    boolean A -> A
+    com.kuguo.ad.bm a(android.content.Context,int) -> a
     boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
-    void b() -> a
-com.kuguo.ad.t -> com.kuguo.ad.aj:
+    void d() -> b
+    void a(boolean,int) -> a
+    void a(int,int) -> a
+    void a(int) -> a
+    void b$255f295(int) -> b
+    int a() -> a
+    int b(int) -> c
+    void c(int) -> d
+    void a(java.lang.String) -> a
+    boolean a(float) -> a
+    int a(com.kuguo.ad.bm) -> a
+    int a(com.kuguo.ad.bm,int) -> a
+    int b$145172bb(com.kuguo.ad.bm) -> b
+    android.os.Handler b(com.kuguo.ad.bm) -> c
+    int c(com.kuguo.ad.bm) -> d
+    int d(com.kuguo.ad.bm) -> e
+    boolean e(com.kuguo.ad.bm) -> f
+    boolean f(com.kuguo.ad.bm) -> g
+    int c(com.kuguo.ad.bm,int) -> b
+    boolean a$1451b29d(com.kuguo.ad.bm) -> h
+    float g(com.kuguo.ad.bm) -> i
+    int h(com.kuguo.ad.bm) -> j
+com.kuguo.ad.bn -> com.kuguo.ad.aq:
     com.kuguo.ad.q a -> a
     void handleMessage(android.os.Message) -> handleMessage
-com.kuguo.ad.u -> com.kuguo.ad.ak:
-    com.kuguo.ad.g a -> a
-    void run() -> run
-com.kuguo.ad.v -> com.kuguo.ad.al:
-    com.kuguo.ad.MainService a -> a
-    void handleMessage(android.os.Message) -> handleMessage
-com.kuguo.ad.w -> com.kuguo.ad.am:
-    com.kuguo.ad.g a -> a
-    void handleMessage(android.os.Message) -> handleMessage
-com.kuguo.ad.x -> com.kuguo.ad.an:
-    android.content.Context a -> a
-    com.kuguo.ad.o b -> b
-    android.os.Handler c -> c
-    int d -> d
-    void a(com.kuguo.a.d,int) -> a
-    void a(com.kuguo.a.d,long) -> a
-com.kuguo.ad.y -> com.kuguo.ad.ao:
-    com.kuguo.ad.n a -> a
-    void handleMessage(android.os.Message) -> handleMessage
-com.kuguo.ad.z -> com.kuguo.ad.ap:
-    void a(com.kuguo.ad.o[]) -> a
-com.kuguo.b.a -> com.kuguo.b.a:
-    org.apache.http.client.HttpClient b -> b
+com.kuguo.ad.bo -> com.kuguo.ad.ar:
+    android.widget.ProgressBar a -> a
+    android.content.Context b -> b
+    boolean c -> c
+    com.kuguo.ad.ah d -> d
+    int e -> e
+    int f -> f
+    android.widget.TextView g -> g
     void a() -> a
     void b() -> b
-com.kuguo.b.b -> com.kuguo.b.b:
+    void c() -> c
+    void d() -> d
+    void f() -> e
+    boolean a(com.kuguo.ad.bo) -> a
+    int a(com.kuguo.ad.bo,int) -> a
+    int b(com.kuguo.ad.bo) -> b
+    android.widget.TextView c(com.kuguo.ad.bo) -> c
+    int d(com.kuguo.ad.bo) -> d
+    android.content.Context e(com.kuguo.ad.bo) -> e
+com.kuguo.ad.bp -> com.kuguo.ad.as:
+    int a -> a
+    java.lang.String b -> b
+    java.lang.String toString() -> toString
+    void a(org.json.JSONObject) -> a
+    java.lang.String a() -> a
+com.kuguo.ad.bq -> com.kuguo.ad.at:
+    void a(com.kuguo.ad.bk) -> a
+com.kuguo.ad.br -> com.kuguo.ad.au:
+    android.content.Context a -> a
+    com.kuguo.ad.bk b -> b
+    android.os.Handler c -> c
+    int d -> d
+    int e -> e
+    void a(com.kuguo.a.f,int) -> a
+    void a(com.kuguo.a.f,long) -> a
+com.kuguo.ad.bs -> com.kuguo.ad.av:
+    com.kuguo.ad.bi a -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.kuguo.ad.bt -> com.kuguo.ad.aw:
+    com.kuguo.ad.bo a -> a
+    void onScrollStateChanged(android.widget.AbsListView,int) -> onScrollStateChanged
+    void onScroll(android.widget.AbsListView,int,int,int) -> onScroll
+com.kuguo.ad.bu -> com.kuguo.ad.ax:
+    com.kuguo.ad.bo a -> a
+    void onClick(android.view.View) -> onClick
+com.kuguo.ad.bv -> com.kuguo.ad.ay:
+    android.content.Context b -> b
+    com.kuguo.ad.KuguoAdsManager a -> a
+    void run() -> run
+    android.content.Context a(com.kuguo.ad.bv) -> a
+com.kuguo.ad.bw -> com.kuguo.ad.az:
+    int a -> a
+    int b -> b
+    int c -> c
+    java.lang.String toString() -> toString
+    void a(org.json.JSONObject) -> a
+    java.lang.String a() -> a
+com.kuguo.ad.by -> com.kuguo.ad.ba:
+    com.kuguo.ad.bz a -> a
+    void run() -> run
+com.kuguo.ad.bz -> com.kuguo.ad.bb:
+    com.kuguo.ad.bk a -> a
+    com.kuguo.ad.bn b -> b
+    void a(com.kuguo.a.f,long) -> a
+    void a(com.kuguo.a.f,int) -> a
+com.kuguo.ad.c -> com.kuguo.ad.bc:
+    android.content.Context a -> a
+    void run() -> run
+    void a(com.kuguo.a.f,int) -> a
+    void a(com.kuguo.a.f,long) -> a
+com.kuguo.ad.ca -> com.kuguo.ad.bd:
+    java.lang.String a -> a
+    com.kuguo.ad.MainReceiver b -> b
+    void run() -> run
+com.kuguo.ad.cb -> com.kuguo.ad.be:
+    com.kuguo.ad.MainReceiver a -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.kuguo.ad.cc -> com.kuguo.ad.bf:
+    com.kuguo.ad.cc a -> a
+    android.content.Context b -> b
+    com.kuguo.ad.aw c -> c
+    com.kuguo.ad.cc a(android.content.Context) -> a
+    com.kuguo.ad.ce[] a(int,int,java.lang.String) -> a
+    com.kuguo.ad.bp a(java.lang.String) -> a
+    com.kuguo.ad.at[] a() -> a
+    java.io.InputStream a(java.lang.String,byte[]) -> a
+    java.lang.String a(java.io.InputStream) -> a
+    java.lang.String a(java.util.HashMap) -> a
+com.kuguo.ad.cd -> com.kuguo.ad.bg:
+    com.kuguo.ad.MainReceiver a -> a
+    void run() -> run
+com.kuguo.ad.ce -> com.kuguo.ad.bh:
+    java.lang.String a -> a
+    java.lang.String b -> b
+    int c -> c
+    java.lang.String d -> d
+    int e -> e
+    java.lang.String f -> f
+    java.lang.String g -> g
+    java.lang.String h -> h
+    int i -> i
+    java.lang.String j -> j
+    java.lang.String k -> k
+    java.lang.String l -> l
+    boolean m -> m
+    boolean n -> n
+    boolean o -> o
+    java.lang.String p -> p
+    boolean q -> q
+    java.lang.String r -> r
+    int s -> s
+    void a(org.json.JSONObject) -> a
+    java.lang.String toString() -> toString
+    java.lang.String a() -> a
+com.kuguo.ad.d -> com.kuguo.ad.bi:
+    java.util.Map a -> a
+    com.kuguo.ad.ag a(java.lang.Class,java.lang.String) -> a
+    com.kuguo.ad.ag[] b(java.lang.Class,java.lang.String) -> b
+com.kuguo.ad.e -> com.kuguo.ad.bj:
+    boolean a -> a
+    android.widget.ImageView b -> b
+    android.widget.TextView c -> c
+    android.widget.TextView d -> d
+    android.widget.TextView e -> e
+    android.widget.TextView f -> f
+    com.kuguo.ui.ImageGallery g -> g
+    com.kuguo.ui.FoldView h -> h
+    android.widget.TextView i -> i
+    android.widget.ImageView j -> j
+    android.widget.TextView k -> k
+    android.widget.TextView l -> l
+    android.widget.LinearLayout m -> m
+    android.content.Context n -> n
+    android.view.View$OnClickListener o -> o
+    com.kuguo.ad.ap p -> p
+    void a(android.graphics.Bitmap) -> a
+    void a(java.lang.String) -> a
+    void a() -> a
+    void b(java.lang.String) -> b
+    void c(java.lang.String) -> c
+    void a(float) -> a
+    void d(java.lang.String) -> d
+    void e(java.lang.String) -> e
+    void a(int) -> a
+    void a(android.graphics.Bitmap,int) -> a
+    void onClick(android.view.View) -> onClick
+    void a(java.util.Map) -> a
+    void a(android.view.View$OnClickListener) -> a
+    android.content.Context a(com.kuguo.ad.e) -> a
+com.kuguo.ad.f -> com.kuguo.ad.bk:
+    com.kuguo.ad.ae a -> a
+    void onProgressChanged(android.webkit.WebView,int) -> onProgressChanged
+    void onReceivedIcon(android.webkit.WebView,android.graphics.Bitmap) -> onReceivedIcon
+com.kuguo.ad.g -> com.kuguo.ad.bl:
+    com.kuguo.ad.ac a -> a
+    void run() -> run
+com.kuguo.ad.h -> com.kuguo.ad.bm:
+    int b -> b
+    com.kuguo.ad.bk c -> c
+    com.kuguo.ad.e d -> d
+    android.app.Activity e -> e
+    com.kuguo.ad.br f -> f
+    boolean g -> g
+    android.os.Handler h -> h
+    android.view.View$OnClickListener a -> a
+    java.util.Map a(java.lang.String) -> a
+    void a() -> a
+    android.app.Activity a(com.kuguo.ad.h) -> a
+    com.kuguo.ad.e b(com.kuguo.ad.h) -> b
+    int c(com.kuguo.ad.h) -> c
+    com.kuguo.ad.bk d(com.kuguo.ad.h) -> d
+    boolean e(com.kuguo.ad.h) -> e
+    boolean f(com.kuguo.ad.h) -> f
+com.kuguo.ad.i -> com.kuguo.ad.bn:
+    com.kuguo.ad.ac a -> a
+    void run() -> run
+com.kuguo.ad.j -> com.kuguo.ad.bo:
+    com.kuguo.ad.p a -> a
+    void run() -> run
+com.kuguo.ad.k -> com.kuguo.ad.bp:
+    com.kuguo.ad.p a -> a
+    void run() -> run
+com.kuguo.ad.l -> com.kuguo.ad.bq:
+    com.kuguo.ad.p a -> a
+    void run() -> run
+com.kuguo.ad.m -> com.kuguo.ad.br:
+    com.kuguo.ad.ad a -> a
+    void run() -> run
+com.kuguo.ad.n -> com.kuguo.ad.bs:
+    com.kuguo.ad.ad a -> a
+    void run() -> run
+com.kuguo.ad.o -> com.kuguo.ad.bt:
+    android.content.Context a -> a
+    int b -> b
+    int c -> c
+    com.kuguo.ad.aq d -> d
+    com.kuguo.ad.br e -> e
+    android.os.Handler f -> f
+    void a() -> a
+    void run() -> run
+    void a(com.kuguo.ad.bk[]) -> a
+    void a(com.kuguo.ad.aq) -> a
+com.kuguo.ad.p -> com.kuguo.ad.bu:
+    android.content.Context a -> a
+    android.os.Handler b -> b
+    boolean c -> c
+    boolean d -> d
+    com.kuguo.ad.p e -> e
+    int f -> f
+    com.kuguo.ad.v g -> g
+    com.kuguo.ad.p a(android.content.Context) -> a
+    void a() -> a
+    void a(com.kuguo.ad.bk[],int) -> a
+    void f() -> d
+    boolean b() -> b
+    boolean c() -> c
+    void a(com.kuguo.ad.v) -> a
+    boolean a$27f38982(com.kuguo.ad.p) -> a
+    android.content.Context a(com.kuguo.ad.p) -> b
+    boolean b$27f38982(com.kuguo.ad.p) -> c
+com.kuguo.ad.q -> com.kuguo.ad.bv:
+    android.content.Context a -> a
+    com.kuguo.ad.q b -> b
+    android.os.Handler c -> c
+    com.kuguo.ad.q a(android.content.Context) -> a
+    void a(java.io.InputStream) -> a
+    void a(com.kuguo.ad.bk[]) -> a
+    void a(com.kuguo.ad.bk) -> a
+    void a(android.content.Context,com.kuguo.ad.bk) -> a
+    int a(int) -> a
+    android.content.Intent b(android.content.Context,com.kuguo.ad.bk) -> b
+    void a() -> a
+    android.content.Context a(com.kuguo.ad.q) -> a
+com.kuguo.ad.r -> com.kuguo.ad.bw:
+    void a() -> b
+    void b() -> c
+com.kuguo.ad.s -> com.kuguo.ad.bx:
+    org.apache.http.client.HttpClient a(android.content.Context) -> a
+    java.lang.String c(android.content.Context) -> c
+    java.lang.String d(android.content.Context) -> b
+    void a(android.content.Context,java.lang.String) -> a
+    void a$5b2a57be(android.content.Context,int,java.lang.String,int,android.content.Intent,java.lang.String,int) -> a
+    void a(android.content.Context,com.kuguo.a.f,com.kuguo.a.a) -> a
+com.kuguo.ad.t -> com.kuguo.ad.by:
+    com.kuguo.ad.MainService a -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.kuguo.ad.u -> com.kuguo.ad.bz:
+    android.content.Context a -> a
+    android.content.Context a(com.kuguo.ad.u) -> a
+com.kuguo.ad.v -> com.kuguo.ad.ca:
+    void b(com.kuguo.ad.bk[],int) -> b
+com.kuguo.ad.w -> com.kuguo.ad.cb:
+com.kuguo.ad.x -> com.kuguo.ad.cc:
+    com.kuguo.ad.ah a -> a
+    void run() -> run
+com.kuguo.ad.y -> com.kuguo.ad.cd:
+    int a -> a
+    com.kuguo.ad.ah b -> b
+    void run() -> run
+com.kuguo.ad.z -> com.kuguo.ad.ce:
+    com.kuguo.ad.ah a -> a
+    void run() -> run
+com.kuguo.b.a -> com.kuguo.b.a:
     com.kuguo.b.h b -> b
     java.lang.Exception c -> c
     int d -> d
     java.util.Map e -> e
-    com.kuguo.b.c f -> f
+    com.kuguo.b.b f -> f
     float g -> g
-    com.kuguo.b.e h -> h
+    com.kuguo.b.g h -> h
     java.io.InputStream i -> i
     android.content.Context a -> a
-    boolean c() -> c
-    com.kuguo.b.h d() -> d
+    boolean a() -> a
+    com.kuguo.b.h b() -> b
+    void c() -> c
+    void d() -> d
     void e() -> e
-    void a() -> a
-    void b() -> b
     java.io.InputStream f() -> f
     void a(java.io.InputStream) -> a
     java.util.Map g() -> g
@@ -593,34 +953,38 @@ com.kuguo.b.b -> com.kuguo.b.b:
     void a(int) -> a
     java.lang.Exception i() -> i
     void a(java.lang.Exception) -> a
-    void a(com.kuguo.b.c) -> a
+    void a(com.kuguo.b.b) -> a
     float j() -> j
-    com.kuguo.b.e k() -> k
+    com.kuguo.b.g k() -> k
     boolean l() -> l
+com.kuguo.b.b -> com.kuguo.b.b:
+    void a(com.kuguo.b.a,int) -> a
 com.kuguo.b.c -> com.kuguo.b.c:
-    void a(com.kuguo.b.b,int) -> a
-com.kuguo.b.d -> com.kuguo.b.d:
     boolean a -> a
     java.util.List b -> b
     void a$13462e() -> a
-    void a(com.kuguo.b.b) -> a
+    void a(com.kuguo.b.a) -> a
+com.kuguo.b.d -> com.kuguo.b.d:
+    java.lang.Thread b -> b
+    int c -> c
+    com.kuguo.b.c a -> a
+    java.lang.String toString() -> toString
+    boolean a(com.kuguo.b.a) -> a
+    void a() -> a
+    boolean add(java.lang.Object) -> add
+    java.lang.Thread a$3363d8fb(com.kuguo.b.d) -> a
 com.kuguo.b.e -> com.kuguo.b.e:
+    com.kuguo.b.d a -> a
+    void run() -> run
+com.kuguo.b.f -> com.kuguo.b.f:
+    org.apache.http.client.HttpClient b -> b
+    void d() -> d
+    void e() -> e
+com.kuguo.b.g -> com.kuguo.b.g:
     java.lang.String a -> a
     int b -> b
     java.lang.String a() -> a
     int b() -> b
-com.kuguo.b.f -> com.kuguo.b.f:
-    java.lang.Thread b -> b
-    int c -> c
-    com.kuguo.b.d a -> a
-    java.lang.String toString() -> toString
-    boolean a(com.kuguo.b.b) -> a
-    void a() -> a
-    boolean add(java.lang.Object) -> add
-    java.lang.Thread a$3a9a3883(com.kuguo.b.f) -> a
-com.kuguo.b.g -> com.kuguo.b.g:
-    com.kuguo.b.f a -> a
-    void run() -> run
 com.kuguo.b.h -> com.kuguo.b.h:
     java.lang.String a -> a
     java.util.Map b -> b
@@ -667,43 +1031,7 @@ com.kuguo.ui.ImageGallery -> com.kuguo.ui.ImageGallery:
     void draw(android.graphics.Canvas) -> draw
     void a(java.util.List) -> a
     void a(android.graphics.Bitmap,int) -> a
-com.kuguo.ui.Workspace -> com.kuguo.ui.Workspace:
-    android.graphics.Bitmap b -> b
-    android.graphics.Bitmap c -> c
-    android.graphics.Bitmap d -> d
-    android.graphics.Bitmap e -> e
-    int f -> f
-    int g -> g
-    int h -> h
-    int i -> i
-    int j -> j
-    com.kuguo.ui.a k -> k
-    int l -> l
-    android.content.Context m -> m
-    boolean a -> a
-    java.util.List n -> n
-    void onMeasure(int,int) -> onMeasure
-    void onLayout(boolean,int,int,int,int) -> onLayout
-    void dispatchDraw(android.graphics.Canvas) -> dispatchDraw
-    boolean dispatchTouchEvent(android.view.MotionEvent) -> dispatchTouchEvent
-    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
-    void addView(android.view.View,android.view.ViewGroup$LayoutParams) -> addView
-    void removeAllViews() -> removeAllViews
-    void removeView(android.view.View) -> removeView
-    void b() -> a
 com.kuguo.ui.a -> com.kuguo.ui.a:
-com.kuguo.ui.b -> com.kuguo.ui.b:
-    java.util.List a -> a
-    com.kuguo.ui.ImageGallery b -> b
-    void a(java.util.List) -> a
-    java.util.List a() -> a
-    int getCount() -> getCount
-    java.lang.Object getItem(int) -> getItem
-    long getItemId(int) -> getItemId
-    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
-com.kuguo.ui.c -> com.kuguo.ui.c:
-    void a() -> a
-com.kuguo.ui.d -> com.kuguo.ui.d:
     android.graphics.drawable.Drawable a -> a
     android.graphics.drawable.Drawable b -> b
     android.graphics.drawable.Drawable c -> c
@@ -716,9 +1044,18 @@ com.kuguo.ui.d -> com.kuguo.ui.d:
     int getOpacity() -> getOpacity
     void setAlpha(int) -> setAlpha
     void setColorFilter(android.graphics.ColorFilter) -> setColorFilter
-com.kuguo.ui.e -> com.kuguo.ui.e:
+com.kuguo.ui.b -> com.kuguo.ui.b:
     com.kuguo.ui.FoldView a -> a
     void onDraw(android.graphics.Canvas) -> onDraw
+com.kuguo.ui.c -> com.kuguo.ui.c:
+    java.util.List a -> a
+    com.kuguo.ui.ImageGallery b -> b
+    void a(java.util.List) -> a
+    java.util.List a() -> a
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
 com.seven.lock.ActvityInterceptService -> com.seven.lock.ActvityInterceptService:
     boolean flag -> a
     com.seven.lock.util.PreferencesHelper helper -> b
